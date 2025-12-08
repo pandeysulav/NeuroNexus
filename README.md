@@ -85,14 +85,13 @@ Machine Learning is the foundation of modern AI systems. It enables computers to
 
 ## Daily Progress Tracker
 
-| Days  | Date       | Topics                    | Resources                                                                                            |
-| ----- | ---------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Day 1 | 2024-12-14 | Intro to ML (Chapter 1–8) | [CampusX – 100 Days of ML](https://www.youtube.com/playlist?list=PLKnIA16_Rmvb1RYR-iTA_hzckhdONtSW4) |
+| Days  | Date       | Topics                    | Resources                                                |
+| ----- | ---------- | ------------------------- | -------------------------------------------------------- |
+| Day 1 | 2024-12-14 | Intro to ML (Chapter 1–8) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ## LEARNING REFERENCES
 
-![Machine Learning Intro](ASSETS/ml1.png)
-
+![](./ASSETS/ml1.png)
 ![](./ASSETS/ml2.png)
 ![](./ASSETS/ml3.png)
 ![](./ASSETS/ml4.png)

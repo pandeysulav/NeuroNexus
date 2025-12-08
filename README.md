@@ -1,4 +1,4 @@
-# 365 Days of AI/ML Learning
+# MY AI/ML LEARNING JOURNEY
 
 <div align="center">
   <!-- Left Badges (Last Updated & Repo Size) -->

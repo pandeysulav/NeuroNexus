@@ -1,332 +1,100 @@
-# 📚 My AI & ML Learning Journey 🚀
-
-Welcome to my **Day-by-Day Learning Tracker** — a comprehensive record of my progress through **Machine Learning, Deep Learning, and AI Engineering**.
-
-This repository documents my daily learnings, code implementations, projects, and insights as I master the field of Artificial Intelligence.
-
----
-
-## 📑 Table of Contents
-
-- [📊 Progress Summary](#-progress-summary)
-- [📅 Daily Logs](#-daily-logs)
-- [📁 Repository Structure](#-repository-structure)
-- [🎯 Current Focus](#-current-focus)
-- [📚 Learning Resources](#-learning-resources)
-
----
-
-## 📊 Progress Summary
-
-| Metric | Value |
-|--------|-------|
-| **Total Days** | 200+ |
-| **Topics Covered** | 50+ |
-| **Projects Completed** | 15+ |
-| **Code Notebooks** | 100+ |
-| **Last Updated** | [DATE] |
-
----
-
-## 📅 Daily Logs
-
-### <a name="day-001"></a>📌 **Day 001: [Topic Title]**
-
-**Date:** YYYY-MM-DD
-
-**Topics Covered:**
-- [Topic 1]
-- [Topic 2]
-- [Topic 3]
-
-**Key Learnings:**
-- Point 1
-- Point 2
-- Point 3
-
-**Code Implementation:**
-```python
-# Add your code snippet here
-print("Hello, ML World!")
-```
-
-**Resources Used:**
-- [Blog/Paper/Course Link]
-
-**Screenshots/Visualizations:**
-![Day 001 Screenshot](./daily_logs/day_001/screenshot.png)
-
-**Notes:**
-[Your personal notes or insights]
-
-**Time Spent:** 2 hours
-
----
-
-### <a name="day-002"></a>📌 **Day 002: [Topic Title]**
-
-**Date:** YYYY-MM-DD
-
-**Topics Covered:**
-- [Topic 1]
-- [Topic 2]
-
-**Key Learnings:**
-- Point 1
-- Point 2
-
-**Code Implementation:**
-```python
-# Your code here
-```
-
-**Resources Used:**
-- [Resource Link]
-
-**Screenshots/Visualizations:**
-![Day 002 Screenshot](./daily_logs/day_002/screenshot.png)
-
-**Notes:**
-[Your notes]
-
-**Time Spent:** 1.5 hours
-
----
-
-## 📁 Repository Structure
-
-```
-📦 Daily-Learning-Progress
-├── 📄 README.md                          # This file
-├── 📁 daily_logs/
-│   ├── 📁 day_001/
-│   │   ├── 📄 notes.md
-│   │   ├── 📄 day_001.ipynb             # Jupyter notebook
-│   │   ├── 🖼️ screenshot.png
-│   │   └── 📄 code.py
-│   ├── 📁 day_002/
-│   │   ├── 📄 notes.md
-│   │   ├── 📄 day_002.ipynb
-│   │   └── 🖼️ screenshot.png
-│   └── ... (more days)
-├── 📁 projects/
-│   ├── 📁 project_1/
-│   │   ├── 📄 README.md
-│   │   ├── 📄 main.py
-│   │   └── 📄 requirements.txt
-│   └── ... (more projects)
-├── 📁 resources/
-│   ├── 📄 courses.md
-│   ├── 📄 papers.md
-│   └── 📄 useful_links.md
-└── 📁 images/
-    └── (all screenshots and diagrams)
-```
-
----
-
-## 🎯 Current Focus
-
-**Current Topic:** [Your current learning focus]
-
-**Next Topics:**
-- [ ] Topic 1
-- [ ] Topic 2
-- [ ] Topic 3
-
-**Short-term Goals (Next 2 weeks):**
-- [ ] Complete [Course/Topic]
-- [ ] Build [Project]
-- [ ] Understand [Concept]
-
----
-
-## 📚 Learning Resources
-
-### 🎓 Courses
-| Course | Status | Link |
-|--------|--------|------|
-| Course 1 | ⏳ In Progress | [Link] |
-| Course 2 | ✅ Completed | [Link] |
-| Course 3 | 📅 Planned | [Link] |
-
-### 📖 Books
-- [ ] Book 1
-- [ ] Book 2
-- [ ] Book 3
-
-### 🎥 YouTube Channels
-- Channel 1
-- Channel 2
-- Channel 3
-
-### 📰 Blogs & Articles
-- [Blog 1](link)
-- [Blog 2](link)
-- [Blog 3](link)
-
-### 🧾 Research Papers
-- [Paper 1](link)
-- [Paper 2](link)
-
----
-
-## 🔧 How to Use This Repository
-
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/daily-learning-progress.git
-cd daily-learning-progress
-```
-
-### 2. **Create a New Day Entry**
-```bash
-mkdir daily_logs/day_XXX
-cd daily_logs/day_XXX
-touch notes.md day_XXX.ipynb code.py
-```
-
-### 3. **Add Your Daily Learning**
-- Write notes in `notes.md`
-- Code in `day_XXX.ipynb` (Jupyter notebook)
-- Save screenshots in the same folder
-- Update `README.md` with summary
-
-### 4. **Commit Your Progress**
-```bash
-git add daily_logs/day_XXX
-git commit -m "Day XXX: Brief description of learning"
-git push origin main
-```
-
----
-
-## 📊 Learning Statistics
-
-### Topics Completed
-```
-Python Basics        ████████░░  80%
-ML Fundamentals      ███████░░░  70%
-Deep Learning        ██████░░░░  60%
-NLP                  ████░░░░░░  40%
-Computer Vision      ███░░░░░░░  30%
-```
-
-### Projects Timeline
-- **Day 1-5:** [Project Name] - [Status]
-- **Day 6-15:** [Project Name] - [Status]
-- **Day 16-30:** [Project Name] - [Status]
-
----
-
-## 💡 Key Insights & Takeaways
-
-### What I've Learned
-1. [Insight 1] — Learned on Day X
-2. [Insight 2] — Learned on Day Y
-3. [Insight 3] — Learned on Day Z
-
-### Challenges Faced
-- Challenge 1: [How I overcame it]
-- Challenge 2: [How I overcame it]
-
-### Best Practices
-- Practice 1
-- Practice 2
-- Practice 3
-
----
-
-## 🚀 Next Steps
-
-**This Week:**
-- [ ] Complete [Task]
-- [ ] Start [Project]
-- [ ] Learn [Concept]
-
-**This Month:**
-- [ ] Finish [Course]
-- [ ] Complete [Project]
-- [ ] Read [Papers]
-
-**Q4 2024:**
-- [ ] Build [Portfolio Project]
-- [ ] Contribute to [Open Source]
-- [ ] Write [Blog Post]
-
----
-
-## 📧 Contact & Social
-
-- **GitHub:** [Your GitHub](https://github.com/yourusername)
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
-- **Email:** your.email@example.com
-
----
-
-## 📝 Notes for Daily Entry
-
-### Template for Each Day:
-```markdown
-### 📌 Day XXX: [Topic]
-
-**Date:** YYYY-MM-DD
-**Duration:** X hours
-
-**What I Learned:**
-- 
-- 
-
-**Code/Implementation:**
-[Code or notebook reference]
-
-**Challenges:**
-- 
-
-**Resources:**
-- 
-
-**Tomorrow's Plan:**
-- 
-
-**Confidence Level:** 1-10
-```
-
----
-
-## 🎓 Progress Milestones
-
-- ✅ **Day 1-10:** Foundations
-- ✅ **Day 11-30:** Core Concepts
-- 🟡 **Day 31-100:** Advanced Topics
-- 🔲 **Day 101-200:** Specialization & Projects
-
----
-
-## 📌 Tips for Maintaining This Log
-
-1. **Be Consistent:** Update daily, even if just 15 minutes
-2. **Document Everything:** Screenshots, code, insights
-3. **Link Resources:** Always cite where you learned from
-4. **Reflect:** Write down what confused you and how you solved it
-5. **Review:** Look back weekly to reinforce learning
-6. **Share:** Consider writing about interesting learnings
-
----
-
-## 📄 License
-
-This learning journey is documented publicly for educational purposes.
-
----
-
-> **"Learning is not about finishing, it's about the journey we take."** — Unknown
->
-> **Started:** YYYY-MM-DD | **Current Streak:** 200+ days 🔥
+# 365 Days of AI/ML Learning
 
 <div align="center">
-    <a href="#top" title="Jump to top">
-        <img src="https://img.shields.io/badge/Jump_to_Top-0D1117?style=for-the-badge" alt="Back to Top" />
+  <!-- Left Badges (Last Updated & Repo Size) -->
+  <img src="https://img.shields.io/github/last-commit/pandeysulav/NeuroNexus" alt="Last Updated" />
+  <img src="https://img.shields.io/github/repo-size/pandeysulav/NeuroNexus" alt="Repo Size" />
+  
+</div>
+
+<br>
+
+<div align="center">
+    <img src="./resources/images/cover.png" alt="365 Days of AI/ML Learning cover" width="400" />
+</div>
+
+<div align="center">
+    <a href="#bottom" title="Jump to today's entry">
+        <img src="https://img.shields.io/badge/▼_Click_to_Navigate_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
+    </a>
+</div>
+
+> [!note]  
+> I'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/yourprofile/) and [**twitter**](https://twitter.com/yourhandle).  
+> Updates will be specific topics, concise, and focused on what I actually built or explored.  
+> This journey is about building AI/ML projects from scratch with consistent learning and experimentation.
+
+---
+
+## Projects Completed
+
+| Projects | Description | Deployment |
+|----------|-------------|-----------|
+| Coming Soon | Building real-world AI/ML projects step by step | Live |
+
+---
+
+## Resources
+
+| Books & Courses  | Completion Status |
+|--------------------|-------------------|
+| [Essence of Linear Algebra @3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | ✅ |
+| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
+| [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ⏳ |
+| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf) | ⏳ |  
+| [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ⏳ |
+| [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⏳ |
+| [Neural Networks @3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | ⏳ |
+| [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ⏳ |
+| [Neural Networks: Zero to Hero @Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) | ⏳ |
+| [LangChain Intro @Pinecone](https://www.pinecone.io/learn/series/langchain/langchain-intro/) | ⏳ |
+| [🌐 ML Resources](https://ml-resources.vercel.app/) | ⏳ |
+| [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ⏳ |
+| [Deep Reinforcement Learning — Hugging Face Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) | ⏳ |
+| [Reinforcement Learning from Human Feedback (RLHF) — Book](https://rlhfbook.com/) | ⏳ |
+
+---
+
+## Daily Progress Tracker
+
+| Days | Date | Topics | Resources |
+|------|------|--------|-----------|
+| [Day 1](#day-01) | YYYY-MM-DD | Topic Here | [Link](#) |
+| [Day 2](#day-02) | YYYY-MM-DD | Topic Here | [Link](#) |
+
+---
+
+## Daily Learning
+
+### Day 1: Basics of Linear Algebra
+
+**Date:** 2024-12-14  
+**Day:** Day 1  
+**Topic:** Basics of Linear Algebra
+
+**What I Learned Today:**
+- Scalars, Vectors, Matrices, and Tensors as fundamental data structures in ML
+- Linear combinations and span for representing data points
+- Determinants and their role in matrix invertibility
+- Dot and cross products for measuring similarity and vector transformations
+
+**Key Insights:**
+Linear algebra forms the foundation for all machine learning algorithms. Understanding vectors and matrices is crucial for grasping how ML algorithms manipulate and transform data.
+
+**Images/Diagrams:**
+![Example of Tensor](./learning-logs/day-01/tensor-example.png)
+![Linear Transformation](./learning-logs/day-01/linear-transformation.png)
+
+**Next Steps:**
+Study calculus concepts including derivatives, gradients, and gradient descent for optimization.
+
+---
+
+---
+
+<div id="bottom"></div>
+<div align="center">
+    <a href="#top" title="Jump to the top">
+        <img src="https://img.shields.io/badge/▼_Jump_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Top" />
     </a>
 </div>

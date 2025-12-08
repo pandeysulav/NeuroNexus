@@ -84,11 +84,35 @@
 Linear algebra forms the foundation for all machine learning algorithms. Understanding vectors and matrices is crucial for grasping how ML algorithms manipulate and transform data.
 
 **Images/Diagrams:**
-![Example of Tensor](./learning-logs/day-01/tensor-example.png)
-![Linear Transformation](./learning-logs/day-01/linear-transformation.png)
+![Starting Day](./assets/startingday.png)
+![DBMS Intro](./assets/dbmsintro.png)
 
 **Next Steps:**
 Study calculus concepts including derivatives, gradients, and gradient descent for optimization.
+
+---
+
+### Day 2: SQL Commands
+
+**Date:** 2024-12-15  
+**Day:** Day 2  
+**Topic:** SQL Commands
+
+**What I Learned Today:**
+- SELECT, INSERT, UPDATE, DELETE basic operations
+- WHERE, ORDER BY, GROUP BY clauses for data filtering and organization
+- JOINs (INNER, LEFT, RIGHT, FULL) for combining tables
+- Aggregate functions (COUNT, SUM, AVG, MAX, MIN)
+- Subqueries and nested queries for complex data retrieval
+
+**Key Insights:**
+SQL is essential for data manipulation and retrieval in machine learning projects. Mastering SQL enables efficient data preprocessing and exploration, which are critical steps before building ML models.
+
+**Images/Diagrams:**
+[Add your SQL diagram or screenshot here]
+
+**Next Steps:**
+Learn about database design, normalization, and advanced query optimization techniques.
 
 ---
 

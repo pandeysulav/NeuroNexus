@@ -51,14 +51,7 @@
 | HF Deep RL Course                         | ⏳                 |
 | RLHF Book                                 | ⏳                 |
 
----
-
-## Daily Progress Tracker
-
-| Days             | Date       | Topics     | Resources |
-| ---------------- | ---------- | ---------- | --------- |
-| [Day 1](#day-01) | YYYY-MM-DD | Topic Here | [Link](#) |
-| [Day 2](#day-02) | YYYY-MM-DD | Topic Here | [Link](#) |
+| 2024-12-14 | Intro to ML | Added     |
 
 ---
 
@@ -80,9 +73,6 @@
 **Key Insights:**
 Machine Learning is the foundation of modern AI systems. It enables computers to make predictions and decisions by analyzing data, making it essential for automation, analytics, and intelligent applications.
 
-**Images/Diagrams:**
-![Machine Learning Intro](ASSETS/ml1.png)
-![ML Concept 2](ASSETS/ml2.png)
 
 ---
 
@@ -92,3 +82,19 @@ Machine Learning is the foundation of modern AI systems. It enables computers to
         <img src="https://img.shields.io/badge/▼_Jump_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Top" />
     </a>
 </div>
+
+## Daily Progress Tracker
+
+| Days  | Date       | Topics                    | Resources                                                                                            |
+| ----- | ---------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Day 1 | 2024-12-14 | Intro to ML (Chapter 1–8) | [CampusX – 100 Days of ML](https://www.youtube.com/playlist?list=PLKnIA16_Rmvb1RYR-iTA_hzckhdONtSW4) |
+
+## LEARNING REFERENCES
+
+![Machine Learning Intro](ASSETS/ml1.png)
+
+![](./ASSETS/ml2.png)
+![](./ASSETS/ml3.png)
+![](./ASSETS/ml4.png)
+![](./ASSETS/ml5.png)
+![](./ASSETS/ml6.png)

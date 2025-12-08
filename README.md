@@ -1,16 +1,14 @@
 # MY AI/ML LEARNING JOURNEY
 
 <div align="center">
-  <!-- Left Badges (Last Updated & Repo Size) -->
-  <img src="https://img.shields.io/github/last-commit/pandeysulav/NeuroNexus" alt="Last Updated" />
-  <img src="https://img.shields.io/github/repo-size/pandeysulav/NeuroNexus" alt="Repo Size" />
-  
+  <img src="https://img.shields.io/github/last-commit/pandeysulav/NEURONEXUS" alt="Last Updated" />
+  <img src="https://img.shields.io/github/repo-size/pandeysulav/NEURONEXUS" alt="Repo Size" />
 </div>
 
 <br>
 
 <div align="center">
-    <img src="./resources/images/cover.png" alt="365 Days of AI/ML Learning cover" width="400" />
+    <img src="ASSETS/cover.png" alt="365 Days of AI/ML Learning cover" width="400" />
 </div>
 
 <div align="center">
@@ -19,48 +17,46 @@
     </a>
 </div>
 
-> [!note]  
-> I'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/yourprofile/) and [**twitter**](https://twitter.com/yourhandle).  
-> Updates will be specific topics, concise, and focused on what I actually built or explored.  
-> This journey is about building AI/ML projects from scratch with consistent learning and experimentation.
+> [!note]
+> I'll share progress and demos on **LinkedIn** and **Twitter**.
+> Updates will be concise and focused on what I actually built or explored.
 
 ---
 
 ## Projects Completed
 
-| Projects | Description | Deployment |
-|----------|-------------|-----------|
-| [Project Name](https://github.com/pandeysulav/NeuroNexus/tree/main/project-folder) | Brief description of what the project does and technologies used | [Live Demo](https://project-demo-link.com) |
-| [Project Name](https://github.com/pandeysulav/NeuroNexus/tree/main/project-folder) | Brief description of what the project does and technologies used | [Live Demo](https://project-demo-link.com) |
-| [Project Name](https://github.com/pandeysulav/NeuroNexus/tree/main/project-folder) | Brief description of what the project does and technologies used | [Live Demo](https://project-demo-link.com) |
+| Projects                                                                           | Description                                | Deployment                       |
+| ---------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------- |
+| [Project Name](https://github.com/pandeysulav/NEURONEXUS/tree/main/project-folder) | Brief description of what the project does | [Live Demo](https://example.com) |
+| [Project Name](https://github.com/pandeysulav/NEURONEXUS/tree/main/project-folder) | Brief description here                     | [Live Demo](https://example.com) |
 
 ---
 
 ## Resources
 
-| Books & Courses  | Completion Status |
-|--------------------|-------------------|
-| [Essence of Linear Algebra @3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | ✅ |
-| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
-| [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ⏳ |
-| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf) | ⏳ |  
-| [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ⏳ |
-| [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⏳ |
-| [Neural Networks @3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | ⏳ |
-| [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ⏳ |
-| [Neural Networks: Zero to Hero @Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) | ⏳ |
-| [LangChain Intro @Pinecone](https://www.pinecone.io/learn/series/langchain/langchain-intro/) | ⏳ |
-| [🌐 ML Resources](https://ml-resources.vercel.app/) | ⏳ |
-| [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ⏳ |
-| [Deep Reinforcement Learning — Hugging Face Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) | ⏳ |
-| [Reinforcement Learning from Human Feedback (RLHF) — Book](https://rlhfbook.com/) | ⏳ |
+| Books & Courses                           | Completion Status |
+| ----------------------------------------- | ----------------- |
+| Essence of Linear Algebra @3Blue1Brown    | ✅                 |
+| Machine Learning Specialization @Coursera | ✅                 |
+| ML Playlist @CampusX                      | ⏳                 |
+| Hands-On Machine Learning (Sklearn & TF)  | ⏳                 |
+| MIT Intro to Deep Learning                | ⏳                 |
+| Deep Learning Playlist @CampusX           | ⏳                 |
+| Neural Networks @3Blue1Brown              | ⏳                 |
+| fastai Deep Learning                      | ⏳                 |
+| Karpathy Zero to Hero                     | ⏳                 |
+| LangChain Intro @Pinecone                 | ⏳                 |
+| ML Resources Web                          | ⏳                 |
+| GenAI Handbook                            | ⏳                 |
+| HF Deep RL Course                         | ⏳                 |
+| RLHF Book                                 | ⏳                 |
 
 ---
 
 ## Daily Progress Tracker
 
-| Days | Date | Topics | Resources |
-|------|------|--------|-----------|
+| Days             | Date       | Topics     | Resources |
+| ---------------- | ---------- | ---------- | --------- |
 | [Day 1](#day-01) | YYYY-MM-DD | Topic Here | [Link](#) |
 | [Day 2](#day-02) | YYYY-MM-DD | Topic Here | [Link](#) |
 
@@ -70,51 +66,39 @@
 
 ### Day 1: Basics of Linear Algebra
 
-**Date:** 2024-12-14  
-**Day:** Day 1  
+**Date:** 2024-12-14
+**Day:** Day 1
 **Topic:** Basics of Linear Algebra
 
 **What I Learned Today:**
-- Scalars, Vectors, Matrices, and Tensors as fundamental data structures in ML
-- Linear combinations and span for representing data points
-- Determinants and their role in matrix invertibility
-- Dot and cross products for measuring similarity and vector transformations
 
-**Key Insights:**
-Linear algebra forms the foundation for all machine learning algorithms. Understanding vectors and matrices is crucial for grasping how ML algorithms manipulate and transform data.
+* Scalars, vectors, matrices
+* Linear combinations & span
+* Determinants & invertibility
+* Dot & cross product concepts
 
 **Images/Diagrams:**
-![Starting Day](./assets/startingday.png)
-![DBMS Intro](./assets/dbmsintro.png)
-
-**Next Steps:**
-Study calculus concepts including derivatives, gradients, and gradient descent for optimization.
+![Starting Day](ASSETS/startingday.png)
+![DBMS Intro](ASSETS/dbmsintro.png)
 
 ---
 
 ### Day 2: SQL Commands
 
-**Date:** 2024-12-15  
-**Day:** Day 2  
+**Date:** 2024-12-15
+**Day:** Day 2
 **Topic:** SQL Commands
 
 **What I Learned Today:**
-- SELECT, INSERT, UPDATE, DELETE basic operations
-- WHERE, ORDER BY, GROUP BY clauses for data filtering and organization
-- JOINs (INNER, LEFT, RIGHT, FULL) for combining tables
-- Aggregate functions (COUNT, SUM, AVG, MAX, MIN)
-- Subqueries and nested queries for complex data retrieval
 
-**Key Insights:**
-SQL is essential for data manipulation and retrieval in machine learning projects. Mastering SQL enables efficient data preprocessing and exploration, which are critical steps before building ML models.
+* CRUD operations
+* WHERE, ORDER BY, GROUP BY
+* JOINs
+* Aggregations
+* Subqueries
 
 **Images/Diagrams:**
-[Add your SQL diagram or screenshot here]
-
-**Next Steps:**
-Learn about database design, normalization, and advanced query optimization techniques.
-
----
+(Add SQL diagrams here)
 
 ---
 

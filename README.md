@@ -30,7 +30,9 @@
 
 | Projects | Description | Deployment |
 |----------|-------------|-----------|
-| Coming Soon | Building real-world AI/ML projects step by step | Live |
+| [Project Name](https://github.com/pandeysulav/NeuroNexus/tree/main/project-folder) | Brief description of what the project does and technologies used | [Live Demo](https://project-demo-link.com) |
+| [Project Name](https://github.com/pandeysulav/NeuroNexus/tree/main/project-folder) | Brief description of what the project does and technologies used | [Live Demo](https://project-demo-link.com) |
+| [Project Name](https://github.com/pandeysulav/NeuroNexus/tree/main/project-folder) | Brief description of what the project does and technologies used | [Live Demo](https://project-demo-link.com) |
 
 ---
 

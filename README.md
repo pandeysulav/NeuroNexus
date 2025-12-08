@@ -64,26 +64,24 @@
 
 ## Daily Learning
 
-### Day 1: Basics of Linear Algebra
+### Day 1: Introduction to Machine Learning
 
 **Date:** 2024-12-14
 **Day:** Day 1
-**Topic:** Basics of Linear Algebra
+**Topic:** What is Machine Learning?
 
 **What I Learned Today:**
 
-* Scalars, vectors, matrices
-* Linear combinations & span
-* Determinants & invertibility
-* Dot & cross product concepts
+* Machine Learning is a subset of Artificial Intelligence that allows computers to learn patterns from data.
+* ML systems improve automatically through experience instead of being explicitly programmed.
+* Types of Machine Learning: Supervised, Unsupervised, and Reinforcement Learning.
+* Importance of ML in real-world applications such as recommendation systems, fraud detection, image recognition, and language processing.
+
+**Key Insights:**
+Machine Learning is the foundation of modern AI systems. It enables computers to make predictions and decisions by analyzing data, making it essential for automation, analytics, and intelligent applications.
 
 **Images/Diagrams:**
-![Starting Day](ASSETS/startingday.png)
-![DBMS Intro](ASSETS/dbmsintro.png)
-![ML Concept](ASSETS/ml1.png)
-
-**What is Machine Learning?**
-Machine Learning is a subset of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed.
+![Machine Learning Intro](ASSETS/ml1.png)
 
 ---
 

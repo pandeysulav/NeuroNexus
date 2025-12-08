@@ -17,7 +17,6 @@
     </a>
 </div>
 
-> [!note]
 > I'll share progress and demos on **LinkedIn** and **Twitter**.
 > Updates will be concise and focused on what I actually built or explored.
 
@@ -36,20 +35,20 @@
 
 | Books & Courses                           | Completion Status |
 | ----------------------------------------- | ----------------- |
-| Essence of Linear Algebra @3Blue1Brown    | ✅                 |
-| Machine Learning Specialization @Coursera | ✅                 |
-| ML Playlist @CampusX                      | ⏳                 |
-| Hands-On Machine Learning (Sklearn & TF)  | ⏳                 |
-| MIT Intro to Deep Learning                | ⏳                 |
-| Deep Learning Playlist @CampusX           | ⏳                 |
-| Neural Networks @3Blue1Brown              | ⏳                 |
-| fastai Deep Learning                      | ⏳                 |
-| Karpathy Zero to Hero                     | ⏳                 |
-| LangChain Intro @Pinecone                 | ⏳                 |
-| ML Resources Web                          | ⏳                 |
-| GenAI Handbook                            | ⏳                 |
-| HF Deep RL Course                         | ⏳                 |
-| RLHF Book                                 | ⏳                 |
+| Essence of Linear Algebra @3Blue1Brown    | Done               |
+| Machine Learning Specialization @Coursera | Done               |
+| ML Playlist @CampusX                      | In Progress        |
+| Hands-On Machine Learning (Sklearn & TF)  | In Progress        |
+| MIT Intro to Deep Learning                | In Progress        |
+| Deep Learning Playlist @CampusX           | In Progress        |
+| Neural Networks @3Blue1Brown              | In Progress        |
+| fastai Deep Learning                      | In Progress        |
+| Karpathy Zero to Hero                     | In Progress        |
+| LangChain Intro @Pinecone                 | In Progress        |
+| ML Resources Web                          | In Progress        |
+| GenAI Handbook                            | In Progress        |
+| HF Deep RL Course                         | In Progress        |
+| RLHF Book                                 | In Progress        |
 
 
 ---
@@ -96,4 +95,4 @@ Machine Learning is the foundation of modern AI systems. It enables computers to
 ![](./ASSETS/ml4.png)
 ![](./ASSETS/ml5.png)
 ![](./ASSETS/ml6.png)
-![](./ASSETS/ml7.png)   New image added here
+![](./ASSETS/ml7.png)

@@ -80,25 +80,10 @@
 **Images/Diagrams:**
 ![Starting Day](ASSETS/startingday.png)
 ![DBMS Intro](ASSETS/dbmsintro.png)
+![ML Concept](ASSETS/ml1.png)
 
----
-
-### Day 2: SQL Commands
-
-**Date:** 2024-12-15
-**Day:** Day 2
-**Topic:** SQL Commands
-
-**What I Learned Today:**
-
-* CRUD operations
-* WHERE, ORDER BY, GROUP BY
-* JOINs
-* Aggregations
-* Subqueries
-
-**Images/Diagrams:**
-(Add SQL diagrams here)
+**What is Machine Learning?**
+Machine Learning is a subset of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed.
 
 ---
 

@@ -82,6 +82,7 @@ Machine Learning is the foundation of modern AI systems. It enables computers to
 
 **Images/Diagrams:**
 ![Machine Learning Intro](ASSETS/ml1.png)
+![ML Concept 2](ASSETS/ml2.png)
 
 ---
 

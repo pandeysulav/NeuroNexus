@@ -51,7 +51,6 @@
 | HF Deep RL Course                         | ⏳                 |
 | RLHF Book                                 | ⏳                 |
 
-| 2024-12-14 | Intro to ML | Added     |
 
 ---
 
@@ -59,7 +58,7 @@
 
 ### Day 1: Introduction to Machine Learning
 
-**Date:** 2024-12-14
+**Date:** 2025-12-08
 **Day:** Day 1
 **Topic:** What is Machine Learning?
 
@@ -87,7 +86,7 @@ Machine Learning is the foundation of modern AI systems. It enables computers to
 
 | Days  | Date       | Topics                    | Resources                                                |
 | ----- | ---------- | ------------------------- | -------------------------------------------------------- |
-| Day 1 | 2024-12-14 | Intro to ML (Chapter 1–8) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 1 | 2025-12-08 | Intro to ML (Chapter 1–8) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ## LEARNING REFERENCES
 

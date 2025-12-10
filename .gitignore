@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Large files
+*.csv
+*.xlsx
+*.h5
+*.pkl
+*.exe
+
+# Logs and temporary files
+*.log
+*.tmp
+*.DS_Store
+*.bak
+*.swp
+
+# System files
+Thumbs.db
+Desktop.ini

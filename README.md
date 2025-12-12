@@ -18,7 +18,7 @@
 </div>
 
 > [!note]
-> I'll share progress and demos on **LinkedIn** and **Twitter**.
+> I'll share progress and demos on **LinkedIn** and **Twitter**.  
 > Updates will be concise and focused on what I actually built or explored.
 
 ---
@@ -55,21 +55,23 @@
 
 ## Daily Learning
 
-### Day 1: Introduction to Machine Learning
+---
 
-**Date:** 2025-12-08
-**Day:** Day 1
+### **Day 1: Introduction to Machine Learning**
+
+**Date:** 2025-12-08  
+**Day:** Day 1  
 **Topic:** What is Machine Learning?
 
 **What I Learned Today:**
 
-* Machine Learning is a subset of Artificial Intelligence that allows computers to learn patterns from data.
-* ML systems improve automatically through experience instead of being explicitly programmed.
-* Types of Machine Learning: Supervised, Unsupervised, and Reinforcement Learning.
-* Importance of ML in real-world applications such as recommendation systems, fraud detection, image recognition, and language processing.
+- Machine Learning is a subset of AI that enables computers to learn patterns from data.
+- ML systems improve automatically through experience.
+- Types of ML: Supervised, Unsupervised, Reinforcement Learning.
+- Applications: recommendation systems, fraud detection, image recognition, NLP, etc.
 
-**Key Insights:**
-Machine Learning is the foundation of modern AI systems. It enables computers to make predictions and decisions by analyzing data, making it essential for automation, analytics, and intelligent applications.
+**Key Insights:**  
+Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.
 
 ![](./ASSETS/ml1.png)
 ![](./ASSETS/ml2.png)
@@ -81,53 +83,96 @@ Machine Learning is the foundation of modern AI systems. It enables computers to
 
 ---
 
-### Day 2: Major Uses & Functions of NumPy and Pandas
+### **Day 2: Major Uses & Functions of NumPy and Pandas**
 
-**Date:** 2025-12-09
-**Day:** Day 2
+**Date:** 2025-12-09  
+**Day:** Day 2  
 **Topic:** NumPy & Pandas Essentials
-
-**What I Learned Today:**
 
 ### **NumPy Overview**
 
-* NumPy is the foundation of numerical computing in Python.
-* Supports multidimensional arrays (ndarrays).
-* Enables fast mathematical operations using vectorization.
-* Provides tools for random numbers, linear algebra, reshaping, broadcasting, and more.
+- Foundation of numerical computing in Python.
+- Supports multidimensional arrays.
+- Fast mathematical operations using vectorization.
+- Tools for random numbers, linear algebra, broadcasting, reshaping.
 
 ### **Key NumPy Functions Learned:**
 
-* `np.array()` – create arrays
-* `np.arange()`, `np.linspace()` – generate sequences
-* `reshape()` – change array shape
-* Indexing & slicing (`arr[2, 2]`)
-* `np.mean()`, `np.sum()`, `np.max()` – aggregation
-* `copy()` vs views
+- `np.array()`
+- `np.arange()`, `np.linspace()`
+- `reshape()`
+- Indexing & slicing
+- `np.mean()`, `np.sum()`, `np.max()`
+- `copy()` vs **views**
 
 ### **Pandas Overview**
 
-* Pandas is built for handling structured/tabular data.
-* Provides **Series** (1D) and **DataFrames** (2D).
-* Best for data cleaning, manipulation, and preprocessing.
+- Best library for working with structured/tabular data.
+- Provides **Series** (1D) and **DataFrames** (2D).
+- Ideal for cleaning, wrangling, preprocessing.
 
 ### **Key Pandas Functions Learned:**
 
-* `pd.Series()`, `pd.DataFrame()` – creating data
-* `read_csv()` – loading datasets
-* `.head()`, `.info()`, `.describe()` – data inspection
-* Selecting rows/columns using `.loc[]` and `.iloc[]`
-* Handling missing values with `.isnull()` and `.fillna()`
-* Basic operations like filtering, grouping, and merging datasets
+- `pd.Series()`, `pd.DataFrame()`
+- `read_csv()`
+- `.head()`, `.info()`, `.describe()`
+- `.loc[]` and `.iloc[]`
+- Handling missing values: `.isnull()`, `.fillna()`
+- Filtering, grouping, merging
 
-**Key Insights:**
-NumPy speeds up mathematical operations, while Pandas lets you work easily with structured data. Both libraries form the essential backbone of data analysis and machine learning workflows.
+**Key Insights:**  
+NumPy accelerates mathematical operations, while Pandas simplifies working with structured datasets — together forming the backbone of ML workflows.
 
 ![](./ASSETS/ml8.png)
 ![](./ASSETS/ml9.png)
 ![](./ASSETS/ml10.png)
 ![](./ASSETS/ml11.png)
 ![](./ASSETS/ml12.png)
+
+---
+
+### **Day 3: Seaborn, Matplotlib & Essential Pandas Visualization**
+
+**Date:** 2025-12-10  
+**Day:** Day 3  
+**Topic:** Intro to Visualization (Matplotlib, Seaborn, Pandas)
+
+**Resources Used Today:**  
+- **CampusX Visualization Playlist:** https://youtu.be/3Xc3CA655Y4  
+- **Krish Naik Visualization Tutorial:** https://youtu.be/0P7QnIQDBJY  
+
+### **Matplotlib Basics**
+- Foundation plotting library in Python.
+- Learned:
+  - `plt.plot()`, `plt.title()`, `plt.xlabel()`, `plt.ylabel()`, `plt.show()`
+- Understood axes, figures, subplots.
+
+### **Seaborn Overview**
+- Built on top of Matplotlib.
+- Provides beautiful and statistical plots.
+- Learned:
+  - `sns.countplot()`
+  - `sns.barplot()`
+  - `sns.histplot()`
+  - `sns.pairplot()`
+- Themes:
+  - `sns.set_style("whitegrid")`
+
+### **More Pandas Visualization**
+- Pandas integrates directly with Matplotlib.
+- Used `.plot()` for:
+  - Line charts
+  - Bar charts
+  - Histograms
+- Learned sorting & grouping for better visualization preparation.
+
+**Key Insights:**  
+Visualization helps understand distributions, relationships, and patterns — a crucial step before applying ML algorithms.
+
+![](./ASSETS/ml13.png)
+![](./ASSETS/ml14.png)
+![](./ASSETS/ml15.png)
+![](./ASSETS/ml16.png)
 
 ---
 
@@ -138,12 +183,14 @@ NumPy speeds up mathematical operations, while Pandas lets you work easily with 
     </a>
 </div>
 
-## Daily Progress Tracker
-
-| Days  | Date       | Topics                    | Resources                                                                                                                        |
-| ----- | ---------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Day 1 | 2025-12-08 | Intro to ML (Chapter 1–8) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
-| Day 2 | 2025-12-09 | NumPy & Pandas Basics     | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
-
 ---
 
+## Daily Progress Tracker
+
+| Days  | Date       | Topics                               | Resources                                                                                                                        |
+| ----- | ---------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1 | 2025-12-08 | Intro to ML (Chapter 1–8)            | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
+| Day 2 | 2025-12-09 | NumPy & Pandas Basics                | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
+| Day 3 | 2025-12-10 | Matplotlib, Seaborn, Pandas Plotting | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY)                 |
+
+---

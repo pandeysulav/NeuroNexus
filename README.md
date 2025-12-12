@@ -176,6 +176,35 @@ Visualization helps understand distributions, relationships, and patterns — a 
 
 ---
 
+### **Day 4: Exploratory Data Analysis (EDA)**
+
+**Date:** 2025-12-12  
+**Day:** Day 4  
+**Topic:** EDA using Pandas, Seaborn & Matplotlib
+
+**What I Learned Today:**
+
+- **EDA Overview:** Understanding dataset structure, detecting missing values, identifying outliers, visualizing distributions and correlations.
+- Checked **missing data** using `train.isnull()` and `sns.heatmap()`.
+- Dropped unnecessary columns like `Cabin`.
+- Imputed missing `Age` values based on passenger class.
+- One-hot encoded categorical variables (`Embarked`) using `pd.get_dummies()`.
+- Visualized distributions with `sns.histplot`, `sns.displot`.
+- Countplots for categorical data like `SibSp`, `Pclass`, `Embarked`.
+
+**Key Insights:**  
+EDA helps uncover patterns, detect anomalies, and prepare data for ML modeling — it is a critical first step in any ML project.
+
+![](./ASSETS/ml17.png)
+![](./ASSETS/ml18.png)
+![](./ASSETS/ml19.png)
+![](./ASSETS/ml20.png)
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
+---
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">
@@ -192,5 +221,6 @@ Visualization helps understand distributions, relationships, and patterns — a 
 | Day 1 | 2025-12-08 | Intro to ML (Chapter 1–8)            | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
 | Day 2 | 2025-12-09 | NumPy & Pandas Basics                | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
 | Day 3 | 2025-12-10 | Matplotlib, Seaborn, Pandas Plotting | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY)                 |
+| Day 4 | 2025-12-12 | EDA (Exploratory Data Analysis)      | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
 
 ---

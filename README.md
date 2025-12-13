@@ -63,7 +63,7 @@
 **Day:** Day 1  
 **Topic:** What is Machine Learning?
 
-**What I Learned Today:**
+**What I Learned Today:**  
 
 - Machine Learning is a subset of AI that enables computers to learn patterns from data.
 - ML systems improve automatically through experience.
@@ -98,11 +98,11 @@ Machine Learning is the foundation of modern AI systems. It enables data-driven 
 
 ### **Key NumPy Functions Learned:**
 
-- `np.array()`
-- `np.arange()`, `np.linspace()`
-- `reshape()`
-- Indexing & slicing
-- `np.mean()`, `np.sum()`, `np.max()`
+- `np.array()`  
+- `np.arange()`, `np.linspace()`  
+- `reshape()`  
+- Indexing & slicing  
+- `np.mean()`, `np.sum()`, `np.max()`  
 - `copy()` vs **views**
 
 ### **Pandas Overview**
@@ -113,11 +113,11 @@ Machine Learning is the foundation of modern AI systems. It enables data-driven 
 
 ### **Key Pandas Functions Learned:**
 
-- `pd.Series()`, `pd.DataFrame()`
-- `read_csv()`
-- `.head()`, `.info()`, `.describe()`
-- `.loc[]` and `.iloc[]`
-- Handling missing values: `.isnull()`, `.fillna()`
+- `pd.Series()`, `pd.DataFrame()`  
+- `read_csv()`  
+- `.head()`, `.info()`, `.describe()`  
+- `.loc[]` and `.iloc[]`  
+- Handling missing values: `.isnull()`, `.fillna()`  
 - Filtering, grouping, merging
 
 **Key Insights:**  
@@ -151,18 +151,18 @@ NumPy accelerates mathematical operations, while Pandas simplifies working with 
 - Built on top of Matplotlib.
 - Provides beautiful and statistical plots.
 - Learned:
-  - `sns.countplot()`
-  - `sns.barplot()`
-  - `sns.histplot()`
-  - `sns.pairplot()`
+  - `sns.countplot()`  
+  - `sns.barplot()`  
+  - `sns.histplot()`  
+  - `sns.pairplot()`  
 - Themes:
   - `sns.set_style("whitegrid")`
 
 ### **More Pandas Visualization**
 - Pandas integrates directly with Matplotlib.
 - Used `.plot()` for:
-  - Line charts
-  - Bar charts
+  - Line charts  
+  - Bar charts  
   - Histograms
 - Learned sorting & grouping for better visualization preparation.
 
@@ -182,14 +182,14 @@ Visualization helps understand distributions, relationships, and patterns — a 
 **Day:** Day 4  
 **Topic:** EDA using Pandas, Seaborn & Matplotlib
 
-**What I Learned Today:**
+**What I Learned Today:**  
 
 - **EDA Overview:** Understanding dataset structure, detecting missing values, identifying outliers, visualizing distributions and correlations.
 - Checked **missing data** using `train.isnull()` and `sns.heatmap()`.
 - Dropped unnecessary columns like `Cabin`.
 - Imputed missing `Age` values based on passenger class.
 - One-hot encoded categorical variables (`Embarked`) using `pd.get_dummies()`.
-- Visualized distributions with `sns.histplot`, `sns.displot`.
+- Visualized distributions with `sns.histplot`, `sns.displot`.  
 - Countplots for categorical data like `SibSp`, `Pclass`, `Embarked`.
 
 **Key Insights:**  
@@ -202,6 +202,41 @@ EDA helps uncover patterns, detect anomalies, and prepare data for ML modeling �
 
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
+---
+
+### **Day 5: Introduction to Object-Oriented Programming (OOP) in Python**
+
+**Date:** 2025-12-13  
+**Day:** Day 5  
+**Topic:** OOP Concepts in Python
+
+**What I Learned Today:**  
+
+- **OOP Overview:** Programming paradigm based on objects and classes.
+- Key concepts in Python:
+  - **Class:** Blueprint for creating objects.
+  - **Object/Instance:** Real entity created from a class.
+  - **Attributes:** Variables that belong to an object (properties).
+  - **Methods:** Functions that belong to a class (behaviors).
+  - **Encapsulation:** Keeping data safe inside objects using public/private variables.
+  - **Inheritance:** Reusing code from parent class in child class.
+  - **Polymorphism:** Same interface, different implementation.
+  - **Abstraction:** Hiding complex implementation details from the user.
+
+**Key Insights:**  
+OOP allows building modular, reusable, and maintainable code — essential for structuring ML projects and creating custom classes for models, datasets, and pipelines.
+
+![](./ASSETS/ml21.png)
+![](./ASSETS/ml22.png)
+![](./ASSETS/ml23.png)
+![](./ASSETS/ml24.png)
+![](./ASSETS/ml25.png)
+![](./ASSETS/ml26.png)
+![](./ASSETS/ml27.png)
+
+**Resources Used Today:**  
+- [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA)
 
 ---
 
@@ -222,5 +257,6 @@ EDA helps uncover patterns, detect anomalies, and prepare data for ML modeling �
 | Day 2 | 2025-12-09 | NumPy & Pandas Basics                | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
 | Day 3 | 2025-12-10 | Matplotlib, Seaborn, Pandas Plotting | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY)                 |
 | Day 4 | 2025-12-12 | EDA (Exploratory Data Analysis)      | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
+| Day 5 | 2025-12-13 | Object-Oriented Programming (OOP)   | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
 
 ---

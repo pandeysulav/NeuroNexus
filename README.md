@@ -251,12 +251,13 @@ OOP allows building modular, reusable, and maintainable code — essential for s
 
 ## Daily Progress Tracker
 
-| Days  | Date       | Topics                               | Resources                                                                                                                        |
-| ----- | ---------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Day 1 | 2025-12-08 | Intro to ML (Chapter 1–8)            | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
-| Day 2 | 2025-12-09 | NumPy & Pandas Basics                | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
-| Day 3 | 2025-12-10 | Matplotlib, Seaborn, Pandas Plotting | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY)                 |
-| Day 4 | 2025-12-12 | EDA (Exploratory Data Analysis)      | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                         |
-| Day 5 | 2025-12-13 | Object-Oriented Programming (OOP)   | [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA) |
+| Days | Date | Topics | Resources |
+|----|------|--------|-----------|
+| Day 1 | 2025-12-08 | Intro to ML | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 2 | 2025-12-09 | NumPy & Pandas | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
+| Day 3 | 2025-12-10 | Visualization | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY) |
+| Day 4 | 2025-12-12 | EDA | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 5 | 2025-12-13 | OOP | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
+| Day 6 | 2025-12-14 | Data Manipulation | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

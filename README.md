@@ -238,6 +238,31 @@ OOP allows building modular, reusable, and maintainable code — essential for s
 **Resources Used Today:**  
 - [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA)
 
+### **Day 6: Working with CSV, JSON, SQL & APIs**
+
+**Date:** 2025-12-14  
+**Day:** Day 6  
+**Topic:** Data Manipulation
+
+**What I Learned Today:**  
+
+- **CSV:** Loaded structured datasets using `pd.read_csv()` and explored tabular data efficiently.
+- **JSON:** Worked with nested and structured JSON data using `pd.read_json()` and API responses.
+- **SQL:** Understood how Python connects with databases to fetch data using SQL queries.
+- **APIs:** Learned how to fetch real-time data from public APIs and convert responses into DataFrames.
+
+**Key Insights:**  
+Most real-world ML pipelines rely on external data sources like files, databases, and APIs. Mastering these formats is essential for practical data-driven applications.
+
+![](./ASSETS/ml28.png)
+![](./ASSETS/ml29.png)
+![](./ASSETS/ml30.png)
+![](./ASSETS/ml31.png)
+![](./ASSETS/ml32.png)
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
 ---
 
 <div id="bottom"></div>

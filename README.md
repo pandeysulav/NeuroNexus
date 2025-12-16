@@ -238,6 +238,8 @@ OOP allows building modular, reusable, and maintainable code — essential for s
 **Resources Used Today:**  
 - [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA)
 
+---
+
 ### **Day 6: Working with CSV, JSON, SQL & APIs**
 
 **Date:** 2025-12-14  
@@ -265,6 +267,63 @@ Most real-world ML pipelines rely on external data sources like files, databases
 
 ---
 
+### **Day 7: Web Scraping, API Data Extraction & Understanding Your Data**
+
+**Date:** 2025-12-15  
+**Day:** Day 7  
+**Topic:** Data Collection & Analysis
+
+**What I Learned Today:**
+
+#### **Web Scraping Fundamentals**
+
+- **Beautiful Soup:** Parse HTML/XML content from websites using `bs4`.
+- **Requests Library:** Fetch web pages using `requests.get()`.
+- Key concepts:
+  - Parsing HTML structure with `BeautifulSoup()`
+  - Finding elements using `.find()`, `.find_all()`
+  - Extracting text, attributes, and nested elements
+  - Navigating DOM tree efficiently
+- **Ethics:** Understanding robots.txt, respecting rate limits, and checking website ToS.
+
+#### **API Data Extraction**
+
+- **RESTful APIs:** Understanding endpoints, HTTP methods (GET, POST), and response formats.
+- Extracting data using `requests.get()` and parsing JSON responses.
+- Handling API keys and authentication headers.
+- Working with pagination for large datasets.
+- Error handling with try-except blocks for failed requests.
+- Popular APIs: OpenWeather, NewsAPI, Twitter API, GitHub API, etc.
+
+#### **Understanding Your Data**
+
+- **Data Profiling:** Using `.info()`, `.describe()`, `.dtypes` to understand structure.
+- **Statistical Summary:** Mean, median, std deviation, min/max values.
+- **Distribution Analysis:** Skewness, kurtosis, and data shape characteristics.
+- **Data Quality Checks:**
+  - Missing values percentage
+  - Duplicate records detection
+  - Outlier identification using IQR method
+  - Data type consistency validation
+- **Correlation Analysis:** Using `corr()` to understand feature relationships.
+- **Target Variable Analysis:** Understanding class distribution in classification problems.
+
+**Key Insights:**  
+Web scraping and APIs unlock vast data sources, while understanding your data prevents garbage-in-garbage-out scenarios. A deep understanding of data characteristics guides better preprocessing and model selection decisions.
+
+![](./ASSETS/ml33.png)
+![](./ASSETS/ml34.png)
+![](./ASSETS/ml35.png)
+![](./ASSETS/ml36.png)
+![](./ASSETS/ml37.png)
+![](./ASSETS/ml38.png)
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+- [Krish Naik Web Scraping Tutorial](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)
+
+---
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">
@@ -284,5 +343,6 @@ Most real-world ML pipelines rely on external data sources like files, databases
 | Day 4 | 2025-12-12 | EDA | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 5 | 2025-12-13 | OOP | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
 | Day 6 | 2025-12-14 | Data Manipulation | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 7 | 2025-12-15 | Web Scraping, APIs & Data Understanding | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
 
 ---

@@ -322,6 +322,40 @@ Web scraping and APIs unlock vast data sources, while understanding your data pr
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 - [Krish Naik Web Scraping Tutorial](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)
 
+### **Day 8: Univariate Analysis in Exploratory Data Analysis**
+
+**Date:** 2025-12-20  
+**Day:** Day 8  
+**Topic:** Univariate Analysis
+
+**What I Learned Today:**
+
+- Univariate analysis focuses on **one variable at a time**.
+- Helps understand distribution, central tendency, spread, and outliers.
+- Essential before bivariate and multivariate analysis.
+
+#### **Numerical Variables**
+- Used `sns.histplot()`, `sns.displot()`, `sns.kdeplot()`
+- Interpreted mean, median, skewness
+- Used `stat='density'` and `stat='probability'`
+
+#### **Categorical Variables**
+- Used `sns.countplot()` and `value_counts()`
+- Analyzed class imbalance
+- Differentiated categories using `palette`
+
+**Key Insights:**  
+Univariate analysis builds strong intuition about individual features and directly impacts preprocessing and model performance.
+
+![](./ASSETS/ml37.png)
+![](./ASSETS/ml38.png)
+![](./ASSETS/ml39.png)
+![](./ASSETS/ml40.png)
+![](./ASSETS/ml41.png)
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
 ---
 
 <div id="bottom"></div>
@@ -344,5 +378,6 @@ Web scraping and APIs unlock vast data sources, while understanding your data pr
 | Day 5 | 2025-12-13 | OOP | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
 | Day 6 | 2025-12-14 | Data Manipulation | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 7 | 2025-12-15 | Web Scraping, APIs & Data Understanding | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
+| Day 8 | 2025-12-20 | Univariate Analysis | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

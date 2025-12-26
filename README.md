@@ -448,9 +448,63 @@ Feature engineering and scaling are crucial preprocessing steps that directly af
 
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+---
 
+
+### **Day 11: Encoding Categorical Labels**
+
+**Date:** 2025-12-27  
+**Day:** Day 11  
+**Topic:** Encoding Categorical Labels using Imputer, Ordinal Encoder & One-Hot Encoder  
+
+**What I Learned Today:**  
+
+- **Handling Missing Categorical Data:**  
+  - Used **SimpleImputer** to fill missing categorical values using strategies like `most_frequent`.  
+  - Ensured categorical columns had no missing values before encoding.
+
+- **Ordinal Encoding:**  
+  - Applied **OrdinalEncoder** for categorical features with an inherent order.  
+  - Explicitly defined category order to maintain consistency and meaning.  
+  - Useful for features where relative ranking matters.
+
+- **One-Hot Encoding:**  
+  - Used **OneHotEncoder** to convert nominal categorical variables into binary vectors.  
+  - Applied `drop='first'` to avoid dummy variable trap.  
+  - Transformed categorical features into model-friendly numerical format.
+
+- **ColumnTransformer:**  
+  - Combined imputing and encoding steps into a single preprocessing pipeline.  
+  - Applied different transformations to different columns efficiently.  
+
+**Key Insights:**  
+Proper encoding of categorical variables is essential for machine learning models to interpret non-numeric data correctly. Choosing between ordinal and one-hot encoding depends on whether the categorical feature has an inherent order.
+
+![](./ASSETS/ml82.png)  
+![](./ASSETS/ml83.png)  
+![](./ASSETS/ml84.png)  
+![](./ASSETS/ml85.png)  
+![](./ASSETS/ml86.png)  
+![](./ASSETS/ml87.png)  
+![](./ASSETS/ml88.png)  
+![](./ASSETS/ml89.png)  
+![](./ASSETS/ml90.png)  
+![](./ASSETS/ml91.png)  
+![](./ASSETS/ml92.png)  
+![](./ASSETS/ml93.png)  
+![](./ASSETS/ml94.png)  
+![](./ASSETS/ml95.png)  
+![](./ASSETS/ml96.png)  
+![](./ASSETS/ml97.png)  
+![](./ASSETS/ml98.png)  
+![](./ASSETS/ml99.png)  
+![](./ASSETS/ml100.png)  
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ---
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">
@@ -474,5 +528,6 @@ Feature engineering and scaling are crucial preprocessing steps that directly af
 | Day 8 | 2025-12-20 | Univariate Analysis | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 9 | 2025-12-25 | Multivariate & Pandas Profiling | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 11 | 2025-12-27 | Encoding Categorical Labels | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

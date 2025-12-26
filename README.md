@@ -357,7 +357,44 @@ Univariate analysis builds strong intuition about individual features and direct
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ---
+---
 
+### **Day 9: Multivariate Analysis & Pandas Profiling**
+
+**Date:** 2025-12-25  
+**Day:** Day 9  
+**Topic:** Multivariate Analysis & Pandas Profiling
+
+**What I Learned Today:**  
+
+- Multivariate analysis explores relationships between multiple variables.
+- Visualized correlations using `sns.heatmap`, `pairplot`.
+- Applied **Pandas Profiling** for automatic EDA reports with summary statistics, missing values, distributions, correlations, and sample data.
+- Identified multicollinearity and feature interactions to prepare for ML models.
+- Saved profiling reports as `output.html` for comprehensive inspection.
+
+**Key Insights:**  
+Multivariate analysis combined with profiling automates insights, highlights complex feature relationships, and guides preprocessing decisions.
+
+![](./ASSETS/ml42.png)
+![](./ASSETS/ml43.png)
+![](./ASSETS/ml44.png)
+![](./ASSETS/ml45.png)
+![](./ASSETS/ml46.png)
+![](./ASSETS/ml47.png)
+![](./ASSETS/ml48.png)
+![](./ASSETS/ml49.png)
+![](./ASSETS/ml50.png)
+![](./ASSETS/ml51.png)
+![](./ASSETS/ml52.png)
+![](./ASSETS/ml53.png)
+![](./ASSETS/ml54.png)
+![](./ASSETS/ml55.png)
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
+---
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">
@@ -379,5 +416,6 @@ Univariate analysis builds strong intuition about individual features and direct
 | Day 6 | 2025-12-14 | Data Manipulation | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 7 | 2025-12-15 | Web Scraping, APIs & Data Understanding | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
 | Day 8 | 2025-12-20 | Univariate Analysis | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 9 | 2025-12-25 | Multivariate & Pandas Profiling | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

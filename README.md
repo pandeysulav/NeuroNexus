@@ -394,6 +394,62 @@ Multivariate analysis combined with profiling automates insights, highlights com
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
+### **Day 10: Feature Engineering & Feature Scaling**  
+
+**Date:** 2025-12-26  
+**Day:** Day 10  
+**Topic:** Feature Engineering Principles in Machine Learning, Standardization & Types of Normalization  
+
+**What I Learned Today:**  
+
+- **Feature Engineering Principles:**  
+  - Selecting relevant features and transforming raw data to improve model performance.  
+  - Creating new features from existing data to capture important patterns.  
+  - Handling missing values, categorical encoding, and reducing multicollinearity.  
+
+- **Feature Scaling:**  
+  - **Standardization:** Transforming features to have **mean = 0** and **standard deviation = 1**.  
+  - **Normalization:** Scaling features to a specific range, commonly **[0, 1]** or **[-1, 1]**.  
+  - Types of normalization: **Min-Max scaling, Max-Abs scaling, and Robust scaling** for handling outliers.  
+
+- Applied scaling techniques on the dataset to prepare for machine learning models.  
+- Explored feature relationships and their impact on model learning.  
+- Visualized scaled vs unscaled data distributions to understand transformations.  
+
+**Key Insights:**  
+Feature engineering and scaling are crucial preprocessing steps that directly affect model accuracy, convergence, and generalization. Choosing the right scaling method depends on the algorithm and data distribution.  
+
+![](./ASSETS/ml56.png)  
+![](./ASSETS/ml57.png)  
+![](./ASSETS/ml58.png)  
+![](./ASSETS/ml59.png)  
+![](./ASSETS/ml60.png)  
+![](./ASSETS/ml61.png)  
+![](./ASSETS/ml62.png)  
+![](./ASSETS/ml63.png)  
+![](./ASSETS/ml64.png)  
+![](./ASSETS/ml65.png)  
+![](./ASSETS/ml66.png)  
+![](./ASSETS/ml67.png)  
+![](./ASSETS/ml68.png)  
+![](./ASSETS/ml69.png)  
+![](./ASSETS/ml70.png)  
+![](./ASSETS/ml71.png)  
+![](./ASSETS/ml72.png)  
+![](./ASSETS/ml73.png)  
+![](./ASSETS/ml74.png)  
+![](./ASSETS/ml75.png)  
+![](./ASSETS/ml76.png)  
+![](./ASSETS/ml77.png)  
+![](./ASSETS/ml78.png)  
+![](./ASSETS/ml79.png)  
+![](./ASSETS/ml80.png)  
+![](./ASSETS/ml81.png)  
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
+
 ---
 <div id="bottom"></div>
 <div align="center">
@@ -417,5 +473,6 @@ Multivariate analysis combined with profiling automates insights, highlights com
 | Day 7 | 2025-12-15 | Web Scraping, APIs & Data Understanding | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
 | Day 8 | 2025-12-20 | Univariate Analysis | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 9 | 2025-12-25 | Multivariate & Pandas Profiling | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

@@ -419,10 +419,10 @@ Multivariate analysis combined with profiling automates insights, highlights com
 **Key Insights:**  
 Feature engineering and scaling are crucial preprocessing steps that directly affect model accuracy, convergence, and generalization. Choosing the right scaling method depends on the algorithm and data distribution.  
 
-![](./ASSETS/ml56.png)  
-![](./ASSETS/ml57.png)  
-![](./ASSETS/ml58.png)  
-![](./ASSETS/ml59.png)  
+![](./ASSETS/ml56.jpeg)  
+![](./ASSETS/ml57.jpeg)  
+![](./ASSETS/ml58.jpeg)  
+![](./ASSETS/ml59.jpeg)  
 ![](./ASSETS/ml60.png)  
 ![](./ASSETS/ml61.png)  
 ![](./ASSETS/ml62.png)  

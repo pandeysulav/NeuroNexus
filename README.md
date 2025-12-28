@@ -505,6 +505,46 @@ Proper encoding of categorical variables is essential for machine learning model
 
 ---
 
+### **Day 12: Introduction to Scikit-Learn Pipelines**
+
+**Date:** 2025-12-28  
+**Day:** Day 12  
+**Topic:** Importance of Scikit-Learn Pipelines in Machine Learning Projects  
+
+**What I Learned Today:**  
+
+- **Introduction to Pipelines:**  
+  - Learned what a **Scikit-learn Pipeline** is and why it is essential in machine learning workflows.  
+  - Understood how pipelines chain preprocessing steps and models into a single object.
+
+- **Avoiding Data Leakage:**  
+  - Learned how pipelines prevent data leakage by ensuring preprocessing is applied only on training data during cross-validation.  
+  - Ensured consistent transformations for both training and test datasets.
+
+- **Clean & Maintainable Workflow:**  
+  - Pipelines make machine learning code **cleaner, modular, and easier to debug**.  
+  - Simplifies experimentation by allowing easy replacement of steps.
+
+- **Compatibility with GridSearchCV:**  
+  - Learned how pipelines work seamlessly with **GridSearchCV** for hyperparameter tuning.  
+  - Understood that pipelines allow safe tuning of both preprocessing and model parameters together.
+
+**Key Insights:**  
+Scikit-learn pipelines are a best practice for building robust machine learning systems. They help maintain consistency, avoid common pitfalls like data leakage, and make models easier to tune, validate, and deploy in real-world projects.
+
+![](./ASSETS/ml101.png)  
+![](./ASSETS/ml102.png)  
+![](./ASSETS/ml103.png)  
+![](./ASSETS/ml104.png)  
+![](./ASSETS/ml105.png)  
+![](./ASSETS/ml106.png)  
+![](./ASSETS/ml107.png)  
+![](./ASSETS/ml108.png)  
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">
@@ -529,5 +569,6 @@ Proper encoding of categorical variables is essential for machine learning model
 | Day 9 | 2025-12-25 | Multivariate & Pandas Profiling | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 11 | 2025-12-27 | Encoding Categorical Labels | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

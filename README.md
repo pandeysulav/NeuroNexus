@@ -614,5 +614,5 @@ These transformation techniques are crucial for preprocessing skewed features in
 | Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 11 | 2025-12-27 | Encoding Categorical Labels | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 13 | 2025-12-29 | Feature Transformation Techniques | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw) |
+| Day 13 | 2026-01-11 | Feature Transformation Techniques | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw) |
 ---

@@ -544,6 +544,50 @@ Scikit-learn pipelines are a best practice for building robust machine learning 
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
+### **Day 13: Feature Transformation Techniques**
+
+**Date:** 2025-12-29  
+**Day:** Day 13  
+**Topic:** Function Transformer, Log Transformer, and Box-Cox Transformer in Machine Learning  
+
+**What I Learned Today:**  
+
+- **Function Transformer:**  
+  - Learned about the **FunctionTransformer** in Scikit-learn, which allows wrapping custom functions (like lambda or predefined) into pipelines for easy application on data.  
+  - It's useful for applying arbitrary transformations without creating custom classes.
+
+- **Log Transformer:**  
+  - Explored the log transformer (e.g., using np.log or np.log1p) to handle right-skewed data distributions.  
+  - It helps in stabilizing variance and making features more normally distributed, improving model performance on algorithms that assume normality.
+
+- **Box-Cox Transformer:**  
+  - Understood the Box-Cox transformation, a power transform that finds the optimal lambda to normalize data and reduce skewness.  
+  - It's particularly effective for positive-valued data and can be integrated into pipelines for automated preprocessing.
+
+**Key Insights:**  
+These transformation techniques are crucial for preprocessing skewed features in machine learning pipelines. By applying FunctionTransformer with log or Box-Cox methods, we can enhance data normality, reduce the impact of outliers, and boost the accuracy of models like logistic regression during cross-validation and evaluation.
+
+![](./ASSETS/ml109.png)  
+![](./ASSETS/ml110.png)  
+![](./ASSETS/ml111.png)  
+![](./ASSETS/ml112.png)  
+![](./ASSETS/ml113.png)  
+![](./ASSETS/ml114.png)  
+![](./ASSETS/ml115.png)  
+![](./ASSETS/ml116.png)  
+![](./ASSETS/ml117.png)  
+![](./ASSETS/ml118.png)  
+![](./ASSETS/ml119.png)  
+![](./ASSETS/ml120.png)  
+![](./ASSETS/ml121.png)  
+![](./ASSETS/ml122.png)  
+![](./ASSETS/ml123.png)  
+![](./ASSETS/ml124.png)  
+![](./ASSETS/ml125.png)  
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
 
 <div id="bottom"></div>
 <div align="center">
@@ -569,6 +613,5 @@ Scikit-learn pipelines are a best practice for building robust machine learning 
 | Day 9 | 2025-12-25 | Multivariate & Pandas Profiling | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 11 | 2025-12-27 | Encoding Categorical Labels | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-
+| Day 13 | 2025-12-29 | Feature Transformation Techniques | CampusX – 100 Days of ML |
 ---

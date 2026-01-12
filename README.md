@@ -588,6 +588,58 @@ These transformation techniques are crucial for preprocessing skewed features in
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
+### **Day 14: Advanced Feature Transformation Techniques**
+
+**Date:** 2025-12-30  
+**Day:** Day 14  
+**Topic:** Power Transformer, Binning, and Binarization in Machine Learning  
+
+**What I Learned Today:**  
+
+- **Power Transformer:**  
+  - Learned about the **PowerTransformer** in Scikit-learn, used to make features more Gaussian-like by reducing skewness and stabilizing variance.  
+  - Particularly helpful for models that assume normality, such as linear and logistic regression.
+
+- **Types of Power Transformation:**  
+  - **Box-Cox Transformation:**  
+    - Applicable only to **positive-valued data**.  
+    - Automatically finds the optimal lambda to normalize feature distributions.  
+  - **Yeo-Johnson Transformation:**  
+    - Supports **both positive and negative values**.  
+    - More flexible and commonly used for real-world datasets.
+
+- **Binning (Discretization):**  
+  - Learned how continuous numerical features can be converted into **discrete intervals (bins)**.  
+  - Helps capture non-linear patterns and reduces the impact of noise.  
+  - Improves interpretability and works well with tree-based models.
+
+- **Binarization:**  
+  - Studied binarization techniques that transform numerical values into **binary (0/1)** features using a threshold.  
+  - Useful in feature engineering, rule-based systems, and preprocessing steps.
+
+**Key Insights:**  
+Power transformers improve feature distributions and model stability, while binning and binarization simplify numerical data and help highlight meaningful patterns. These techniques are essential components of robust machine learning preprocessing pipelines.
+
+![](./ASSETS/ml126.png)  
+![](./ASSETS/ml127.png)  
+![](./ASSETS/ml128.png)  
+![](./ASSETS/ml129.png)  
+![](./ASSETS/ml130.png)  
+![](./ASSETS/ml131.png)  
+![](./ASSETS/ml132.png)  
+![](./ASSETS/ml133.png)  
+![](./ASSETS/ml134.png)  
+![](./ASSETS/ml135.png)  
+![](./ASSETS/ml136.png)  
+![](./ASSETS/ml137.png)  
+![](./ASSETS/ml138.png)  
+![](./ASSETS/ml139.png)  
+![](./ASSETS/ml140.png)  
+
+**Resources Used Today:**  
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
+
+
 
 <div id="bottom"></div>
 <div align="center">
@@ -615,4 +667,6 @@ These transformation techniques are crucial for preprocessing skewed features in
 | Day 11 | 2025-12-27 | Encoding Categorical Labels | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 13 | 2026-01-11 | Feature Transformation Techniques | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw) |
+| Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+
 ---

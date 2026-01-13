@@ -639,6 +639,47 @@ Power transformers improve feature distributions and model stability, while binn
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
+### **Day 15: Feature Engineering with Mixed, Date-Time, and Missing Data**
+
+**Date:** 2025-12-31  
+**Day:** Day 15  
+**Topic:** Handling Mixed Variables, Date-Time Variables, and Missing Data in Machine Learning  
+
+**What I Learned Today:**  
+
+- **Handling Mixed Variables:**  
+  - Worked with datasets containing numerical, categorical, and ordinal features.  
+  - Applied appropriate preprocessing techniques for different data types.  
+
+- **Date-Time Variables:**  
+  - Extracted useful features from date-time data such as year, month, day, and day of the week.  
+  - Learned how temporal features help models capture patterns and trends.  
+
+- **Handling Missing Data:**  
+  - Identified missing values in real-world datasets.  
+  - Applied techniques like dropping values and imputing using mean, median, and mode.  
+  - Understood the impact of missing data on model performance.  
+
+**Key Insights:**  
+Effective feature engineering requires proper handling of mixed variables, meaningful extraction from date-time data, and robust strategies for dealing with missing values to improve model accuracy and stability.
+
+![](./ASSETS/ml141.png)  
+![](./ASSETS/ml142.png)  
+![](./ASSETS/ml143.png)  
+![](./ASSETS/ml144.png)  
+![](./ASSETS/ml145.png)  
+![](./ASSETS/ml146.png)  
+![](./ASSETS/ml147.png)  
+![](./ASSETS/ml148.png)  
+![](./ASSETS/ml149.png)  
+![](./ASSETS/ml150.png)  
+![](./ASSETS/ml151.png)  
+![](./ASSETS/ml152.png)  
+![](./ASSETS/ml153.png)  
+
+**Resources Used Today:**  
+- CampusX – 100 Days of ML
+
 
 
 <div id="bottom"></div>
@@ -668,5 +709,6 @@ Power transformers improve feature distributions and model stability, while binn
 | Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 13 | 2026-01-11 | Feature Transformation Techniques | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw) |
 | Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 ---

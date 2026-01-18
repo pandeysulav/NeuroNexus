@@ -680,6 +680,51 @@ Effective feature engineering requires proper handling of mixed variables, meani
 **Resources Used Today:**  
 - CampusX – 100 Days of ML
 
+### **Day 16: Handling Missing Data for Categorical and Numerical Features**
+
+**Date:** 2026-01-01  
+**Day:** Day 16  
+**Topic:** Handling Missing Data in Machine Learning – Numerical & Categorical, Complete Case Analysis  
+
+**What I Learned Today:**  
+
+- **Handling Missing Numerical Data:**  
+  - Used `SimpleImputer` to fill missing numerical values with **mean, median, or mode**.  
+  - Learned that imputing keeps dataset size intact and reduces bias for numerical features.  
+
+- **Handling Missing Categorical Data:**  
+  - Applied `SimpleImputer` to fill missing categorical values using **mode**.  
+  - Learned that categorical imputations maintain consistent categories for ML models.  
+
+- **Complete Case Analysis (CCA):**  
+  - Dropped rows with any missing values instead of imputing.  
+  - **Advantages:**  
+    - Very simple and easy to implement.  
+    - Preserves distribution of remaining data if missingness is MCAR.  
+  - **Disadvantages:**  
+    - Can **lose a lot of data**, reducing statistical power.  
+    - Introduces **bias** if data is not Missing Completely at Random (MCAR).  
+
+**Key Insights:**  
+Handling missing data carefully is crucial for both categorical and numerical features. Imputation maintains dataset size and consistency, while CCA can be used when missingness is random but may result in data loss. Choosing the right strategy improves model accuracy and stability.
+
+![](./ASSETS/ml154.png)  
+![](./ASSETS/ml155.png)  
+![](./ASSETS/ml156.png)  
+![](./ASSETS/ml157.png)  
+![](./ASSETS/ml158.png)  
+![](./ASSETS/ml159.png)  
+![](./ASSETS/ml160.png)  
+![](./ASSETS/ml161.png)  
+![](./ASSETS/ml162.png)  
+![](./ASSETS/ml163.png)  
+![](./ASSETS/ml164.png)  
+![](./ASSETS/ml165.png)  
+![](./ASSETS/ml166.png)  
+![](./ASSETS/ml167.png)  
+
+**Resources Used Today:**  
+- CampusX – 100 Days of ML
 
 
 <div id="bottom"></div>
@@ -710,5 +755,7 @@ Effective feature engineering requires proper handling of mixed variables, meani
 | Day 13 | 2026-01-11 | Feature Transformation Techniques | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw) |
 | Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 16 | 2026-01-18 | Handling Missing Data (Numerical & Categorical), Imputation & Complete Case Analysis (CCA) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+
 
 ---

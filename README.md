@@ -682,7 +682,7 @@ Effective feature engineering requires proper handling of mixed variables, meani
 
 ### **Day 16: Handling Missing Data for Categorical and Numerical Features**
 
-**Date:** 2026-01-01  
+**Date:** 2026-01-18  
 **Day:** Day 16  
 **Topic:** Handling Missing Data in Machine Learning – Numerical & Categorical, Complete Case Analysis  
 

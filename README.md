@@ -678,7 +678,7 @@ Effective feature engineering requires proper handling of mixed variables, meani
 ![](./ASSETS/ml153.png)  
 
 **Resources Used Today:**  
-- CampusX – 100 Days of ML
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 16: Handling Missing Data for Categorical and Numerical Features**
 
@@ -724,7 +724,7 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 ![](./ASSETS/ml167.png)  
 
 **Resources Used Today:**  
-- CampusX – 100 Days of ML
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 
 <div id="bottom"></div>

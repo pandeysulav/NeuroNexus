@@ -726,6 +726,96 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 **Resources Used Today:**  
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
+### **Day 17: Advanced Missing Data Techniques**
+
+**Date:** 2026-01-19  
+**Day:** Day 17  
+**Topic:** Handling Missing Data – Missing Indicator, Random Sample Imputation & MICE Algorithm  
+
+---
+
+## **What I Learned Today:**
+
+### **1. Missing Indicator Method**
+- Created a **new binary feature** to indicate whether the original value was missing or not.
+- Applied this technique alongside imputation (mean/median/mode).
+- Learned that missingness itself can carry **useful information** for ML models.
+
+**Key Points:**
+- Helps models learn patterns related to missing data.
+- Especially useful when data is **Missing Not At Random (MNAR)**.
+- Increases feature space but can improve predictive performance.
+
+---
+
+### **2. Random Sample Imputation**
+- Replaced missing values by randomly sampling from the **existing non-missing values** of the same feature.
+- Maintains the **original distribution** of the data better than mean/median imputation.
+
+**Key Points:**
+- Preserves variance and distribution.
+- Introduces randomness, which can slightly increase noise.
+- Useful when maintaining statistical properties is important.
+
+---
+
+### **3. MICE (Multiple Imputation by Chained Equations)**
+- Learned about **iterative multivariate imputation**.
+- Each feature with missing values is predicted using other features as input.
+- Repeated over multiple iterations to refine imputed values.
+
+**Key Points:**
+- Handles complex relationships between features.
+- Produces more realistic imputations.
+- Computationally expensive but highly effective for advanced ML workflows.
+
+---
+
+## **Key Insights:**
+Advanced missing data techniques go beyond simple imputation.  
+- **Missing indicators** allow models to capture hidden patterns in missingness.  
+- **Random sample imputation** preserves data distribution.  
+- **MICE** leverages relationships between features to generate high-quality imputations.  
+
+Choosing the right method depends on data size, missingness mechanism, and model complexity.
+
+---
+
+## **Visual References:**
+![](./ASSETS/ml168.png)  
+![](./ASSETS/ml169.png)  
+![](./ASSETS/ml170.png)  
+![](./ASSETS/ml171.png)  
+![](./ASSETS/ml172.png)  
+![](./ASSETS/ml173.png)  
+![](./ASSETS/ml174.png)  
+![](./ASSETS/ml175.png)  
+![](./ASSETS/ml176.png)  
+![](./ASSETS/ml177.png)  
+![](./ASSETS/ml178.png)  
+![](./ASSETS/ml179.png)  
+![](./ASSETS/ml180.png)  
+![](./ASSETS/ml181.png)  
+![](./ASSETS/ml182.png)  
+![](./ASSETS/ml183.png)  
+![](./ASSETS/ml184.png)  
+![](./ASSETS/ml185.png)  
+![](./ASSETS/ml186.png)  
+![](./ASSETS/ml187.png)  
+![](./ASSETS/ml188.png)  
+![](./ASSETS/ml189.png)  
+![](./ASSETS/ml190.png)  
+![](./ASSETS/ml191.png)  
+![](./ASSETS/ml192.png)  
+![](./ASSETS/ml193.png)  
+![](./ASSETS/ml194.png)  
+![](./ASSETS/ml195.png)  
+![](./ASSETS/ml196.png)  
+
+---
+
+## **Resources Used Today:**
+- [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 <div id="bottom"></div>
 <div align="center">
@@ -756,6 +846,7 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 | Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 16 | 2026-01-18 | Handling Missing Data (Numerical & Categorical), Imputation & Complete Case Analysis (CCA) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 17 | 2026-01-19 | Advanced Missing Data Techniques: Missing Indicator, Random Sample Imputation & MICE | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 
 
 ---

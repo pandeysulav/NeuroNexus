@@ -967,6 +967,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 | Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 16 | 2026-01-18 | Handling Missing Data (Numerical & Categorical), Imputation & Complete Case Analysis (CCA) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 17 | 2026-01-19 | Advanced Missing Data Techniques: Missing Indicator, Random Sample Imputation & MICE | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
+| Day 18 | 2026-01-26 | Outlier Detection & Feature Engineering: Z-Score, IQR & Percentile Methods, Feature Construction & Curse of Dimensionality | [CampusX – 100 Days of ML](https://youtu.be/OnPE-Z8jtqM) |
 
 
 ---

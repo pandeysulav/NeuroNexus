@@ -937,6 +937,110 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ## **Resources Used Today:**
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
+### **Day 19: Principal Component Analysis (PCA) – Fundamentals & Intuition**
+
+**Date:** 2026-01-27  
+**Day:** Day 19  
+**Topic:** Principal Component Analysis (PCA) – Variance, Covariance Matrix, Eigen Decomposition & Dimensionality Reduction  
+
+---
+
+## **What I Learned Today:**
+
+### **1. Intuition Behind PCA**
+- PCA is a **dimensionality reduction technique** that transforms high-dimensional data into a lower-dimensional space.
+- The goal is to **retain maximum information (variance)** while reducing the number of features.
+- PCA finds new axes (principal components) that best represent the data.
+
+**Key Idea:**
+> Project data onto directions where **variance is maximum**.
+
+---
+
+### **2. Why Variance Is Important**
+- Variance represents the **spread of data**.
+- High variance directions contain **more information**.
+- Low variance directions often represent **noise or redundancy**.
+
+**Why PCA Maximizes Variance:**
+- Retaining high variance ensures minimal information loss.
+- Helps models generalize better.
+- Improves performance and computational efficiency.
+
+---
+
+### **3. Covariance & Covariance Matrix**
+- Covariance measures how two features vary together.
+- A **covariance matrix** captures relationships between all features.
+
+**Key Points:**
+- Positive covariance → features increase together.
+- Negative covariance → one increases while the other decreases.
+- PCA uses the covariance matrix to understand feature relationships.
+
+---
+
+### **4. Eigenvalues & Eigenvectors (Eigen Decomposition)**
+- **Eigenvectors** represent the directions (principal components).
+- **Eigenvalues** represent the amount of variance captured by each eigenvector.
+
+**Interpretation:**
+- Largest eigenvalue → most important principal component.
+- Sorting eigenvectors by eigenvalues gives feature importance order.
+
+---
+
+### **5. Principal Components**
+- Principal components are **new, uncorrelated features**.
+- Each component is a linear combination of original features.
+- First few components capture most of the variance.
+
+**Benefits:**
+- Reduces multicollinearity.
+- Simplifies complex datasets.
+- Helps combat the curse of dimensionality.
+
+---
+
+## **Why PCA Is Important in Machine Learning**
+- Reduces dimensionality without significant information loss.
+- Speeds up training and inference.
+- Improves visualization of high-dimensional data.
+- Helps avoid overfitting.
+
+---
+
+## **Key Insights:**
+- PCA focuses on **variance maximization**.
+- Covariance matrix reveals feature relationships.
+- Eigen decomposition helps identify principal directions.
+- Dimensionality reduction leads to efficient and robust models.
+
+---
+
+## **Visual References:**
+![](./ASSETS/ml219.png)  
+![](./ASSETS/ml220.png)  
+![](./ASSETS/ml221.png)  
+![](./ASSETS/ml222.png)  
+![](./ASSETS/ml223.png)  
+![](./ASSETS/ml224.png)  
+![](./ASSETS/ml225.png)  
+![](./ASSETS/ml226.png)  
+![](./ASSETS/ml227.png)  
+![](./ASSETS/ml228.png)  
+![](./ASSETS/ml229.png)  
+![](./ASSETS/ml230.png)  
+![](./ASSETS/ml231.png)  
+![](./ASSETS/ml232.png)  
+![](./ASSETS/ml233.png)  
+![](./ASSETS/ml234.png)  
+![](./ASSETS/ml235.png)  
+![](./ASSETS/ml236.png)  
+
+---
+
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">

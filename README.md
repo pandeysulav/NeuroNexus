@@ -813,6 +813,127 @@ Choosing the right method depends on data size, missingness mechanism, and model
 ![](./ASSETS/ml196.png)  
 
 ---
+### **Day 18: Outlier Detection & Feature Engineering**
+
+**Date:** 2026-01-26  
+**Day:** Day 18 
+**Topic:** Outlier Detection & Removal – Z-Score, IQR, Percentile Method | Feature Construction & Feature Splitting | Curse of Dimensionality  
+
+---
+
+## **What I Learned Today:**
+
+### **1. Outlier Detection & Removal**
+Outliers are extreme values that significantly deviate from the majority of the data and can negatively impact machine learning models, especially statistical and distance-based models.
+
+---
+
+### **a) Z-Score Method**
+- Detects outliers using **mean and standard deviation**.
+- A data point is treated as an outlier if its Z-score exceeds a threshold (commonly |Z| > 3).
+
+**Key Points:**
+- Suitable for **normally distributed data**.
+- Sensitive to extreme values.
+- Simple and computationally efficient.
+
+---
+
+### **b) IQR (Interquartile Range) Method**
+- Uses **Q1 (25th percentile)** and **Q3 (75th percentile)**.
+- Outliers lie outside:  
+  **[Q1 − 1.5 × IQR, Q3 + 1.5 × IQR]**
+
+**Key Points:**
+- Robust against skewed distributions.
+- Less affected by extreme values.
+- Widely used in practical ML workflows.
+
+---
+
+### **c) Percentile Method**
+- Defines outliers using **lower and upper percentile cutoffs** (e.g., 1st and 99th percentile).
+
+**Key Points:**
+- Easy to implement and interpret.
+- Useful when domain-specific thresholds exist.
+- Risk of removing valid extreme values if poorly chosen.
+
+---
+
+## **2. Feature Engineering**
+
+### **a) Feature Construction**
+- Creating **new meaningful features** from existing ones.
+- Includes ratios, interactions, polynomial features, and domain-driven transformations.
+
+**Importance:**
+- Improves model’s ability to capture complex patterns.
+- Often yields larger performance gains than changing algorithms.
+- A critical step in building strong ML models.
+
+---
+
+### **b) Feature Splitting**
+- Breaking a single feature into multiple informative features.
+- Examples:
+  - Date → Day, Month, Year
+  - Address → City, State, Country
+
+**Importance:**
+- Enhances interpretability.
+- Helps models learn fine-grained patterns.
+- Reduces information loss.
+
+---
+
+## **3. Curse of Dimensionality**
+The **curse of dimensionality** refers to challenges that arise as the number of features increases.
+
+**Key Issues:**
+- Data sparsity in high-dimensional space.
+- Reduced effectiveness of distance-based models (KNN, clustering).
+- Increased computational complexity.
+- Higher risk of overfitting.
+
+**Why It Matters:**
+- More features do not always improve performance.
+- Encourages feature selection and dimensionality reduction.
+- Promotes smarter feature engineering over blind feature expansion.
+
+---
+
+## **Key Insights:**
+- Proper outlier handling is essential for robust ML pipelines.
+- Different datasets require different outlier detection strategies.
+- Feature engineering directly influences model success.
+- Understanding dimensionality helps prevent inefficiency and overfitting.
+
+---
+
+## **Visual References:**
+![](./ASSETS/ml197.png)  
+![](./ASSETS/ml198.png)  
+![](./ASSETS/ml199.png)  
+![](./ASSETS/ml200.png)  
+![](./ASSETS/ml201.png)  
+![](./ASSETS/ml202.png)  
+![](./ASSETS/ml203.png)  
+![](./ASSETS/ml204.png)  
+![](./ASSETS/ml205.png)  
+![](./ASSETS/ml206.png)  
+![](./ASSETS/ml207.png)  
+![](./ASSETS/ml208.png)  
+![](./ASSETS/ml209.png)  
+![](./ASSETS/ml210.png)  
+![](./ASSETS/ml211.png)  
+![](./ASSETS/ml212.png)  
+![](./ASSETS/ml213.png)  
+![](./ASSETS/ml214.png)  
+![](./ASSETS/ml215.png)  
+![](./ASSETS/ml216.png)  
+![](./ASSETS/ml217.png)  
+![](./ASSETS/ml218.png)  
 
 ## **Resources Used Today:**
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)

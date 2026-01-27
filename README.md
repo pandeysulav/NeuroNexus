@@ -912,7 +912,6 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Visual References:**
-![](./ASSETS/ml197.png)  
 ![](./ASSETS/ml198.png)  
 ![](./ASSETS/ml199.png)  
 ![](./ASSETS/ml200.png)  

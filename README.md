@@ -1040,6 +1040,89 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 
 ---
 
+### **Day 19: PCA Implementation Using Scikit-learn**
+
+**Date:** 2026-01-28  
+**Day:** Day 19  
+**Topic:** Implementing Principal Component Analysis (PCA) using `sklearn`
+
+---
+
+### **1. Purpose of PCA**
+- Reduce high-dimensional data
+- Retain maximum variance
+- Remove redundancy and noise
+
+---
+
+### **2. Standardization Before PCA**
+- PCA is scale-sensitive
+- Features must be standardized
+
+**Tool Used:**
+- `StandardScaler`
+
+---
+
+### **3. PCA with Scikit-learn**
+- Implemented using:
+  - `sklearn.decomposition.PCA`
+- Internally uses covariance matrix and SVD
+
+---
+
+### **4. Explained Variance Ratio**
+- `explained_variance_ratio_` shows variance captured
+- Helps select optimal number of components
+
+---
+
+### **5. Dimensionality Reduction**
+- Selected top components based on variance
+- Transformed data into principal components
+
+---
+
+## **Key Takeaways:**
+- Always standardize before PCA
+- Few components capture most variance
+- PCA improves efficiency and generalization
+
+---
+
+## **Visual References:**
+![](./ASSETS/ml237.png)
+![](./ASSETS/ml238.png)
+![](./ASSETS/ml239.png)
+![](./ASSETS/ml240.png)
+![](./ASSETS/ml241.png)
+![](./ASSETS/ml242.png)
+![](./ASSETS/ml243.png)
+![](./ASSETS/ml244.png)
+![](./ASSETS/ml245.png)
+![](./ASSETS/ml246.png)
+![](./ASSETS/ml247.png)
+![](./ASSETS/ml248.png)
+![](./ASSETS/ml249.png)
+![](./ASSETS/ml250.png)
+![](./ASSETS/ml251.png)
+![](./ASSETS/ml252.png)
+![](./ASSETS/ml253.png)
+![](./ASSETS/ml254.png)
+![](./ASSETS/ml255.png)
+![](./ASSETS/ml256.png)
+![](./ASSETS/ml257.png)
+![](./ASSETS/ml258.png)
+![](./ASSETS/ml259.png)
+![](./ASSETS/ml260.png)
+![](./ASSETS/ml261.png)
+![](./ASSETS/ml262.png)
+![](./ASSETS/ml263.png)
+![](./ASSETS/ml264.png)
+![](./ASSETS/ml265.png)
+![](./ASSETS/ml266.png)
+![](./ASSETS/ml267.png)
+![](./ASSETS/ml268.png)
 
 <div id="bottom"></div>
 <div align="center">

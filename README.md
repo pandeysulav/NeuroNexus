@@ -1156,6 +1156,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 | Day 17 | 2026-01-19 | Advanced Missing Data Techniques: Missing Indicator, Random Sample Imputation & MICE | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
 | Day 18 | 2026-01-26 | Outlier Detection & Feature Engineering: Z-Score, IQR & Percentile Methods, Feature Construction & Curse of Dimensionality | [CampusX – 100 Days of ML](https://youtu.be/OnPE-Z8jtqM) |
 | Day 19 | 2026-01-27 | Principal Component Analysis (PCA): Intuition, Variance, Covariance Matrix & Eigen Decomposition | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ) |
+| Day 20 | 2026-01-28 | Principal Component Analysis (PCA): Implementation Using Scikit-learn | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ) |
 
 
 ---

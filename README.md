@@ -87,13 +87,13 @@
 **Key Insights:**  
 Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.
 
-![](./ASSETS/IMAGES/ml1.png)
-![](./ASSETS/IMAGES//ml2.png)
-![](./ASSETS/IMAGES//ml3.png)
-![](./ASSETS/IMAGES//ml4.png)
-![](./ASSETS/IMAGES/ml5.png)
-![](./ASSETS/IMAGES//ml6.png)
-![](./ASSETS/IMAGES//ml7.png)
+![](ASSETS/IMAGES/ml1.png)
+![](ASSETS/IMAGES/ml2.png)
+![](ASSETS/IMAGES/ml3.png)
+![](ASSETS/IMAGES/ml4.png)
+![](ASSETS/IMAGES/ml5.png)
+![](ASSETS/IMAGES/ml6.png)
+![](ASSETS/IMAGES/ml7.png)
 
 ---
 

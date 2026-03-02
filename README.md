@@ -71,22 +71,15 @@
 - Applications: recommendation systems, fraud detection, image recognition, NLP, etc.
 
 **Key Insights:**  
-Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.
+Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.\
 
-### 📸 Screenshots
-
-<details>
-<summary>Click to view screenshots</summary>
-
-<img src="./ASSETS/ml1.png" width="700">
-<img src="./ASSETS/ml2.png" width="700">
-<img src="./ASSETS/ml3.png" width="700">
-<img src="./ASSETS/ml4.png" width="700">
-<img src="./ASSETS/ml5.png" width="700">
-<img src="./ASSETS/ml6.png" width="700">
-<img src="./ASSETS/ml7.png" width="700">
-
-</details>
+![](./ASSETS/ml1.png)
+![](./ASSETS/ml2.png)
+![](./ASSETS/ml3.png)
+![](./ASSETS/ml4.png)
+![](./ASSETS/ml5.png)
+![](./ASSETS/ml6.png)
+![](./ASSETS/ml7.png)
 
 ---
 

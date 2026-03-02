@@ -5,8 +5,9 @@
     <img src="https://img.shields.io/badge/▼_Click_to_Navigate_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
   </a>
 </div>
+
 > [!note]
-> I'll share progress and demos on **LinkedIn** and **Twitter**.  
+> I'll share progress and demos on **LinkedIn** and **Twitter**.
 > Updates will be concise and focused on what I actually built or explored.
 
 ---
@@ -34,10 +35,35 @@
 | fastai Deep Learning                      | ⏳                |
 | Karpathy Zero to Hero                     | ⏳                |
 | LangChain Intro @Pinecone                 | ⏳                |
-| ML Resources Web                          | ⏳                |
-| GenAI Handbook                            | ⏳                |
 | HF Deep RL Course                         | ⏳                |
 | RLHF Book                                 | ⏳                |
+
+---
+
+## Progress
+
+| Days                                                                           | Date       | Topics                                    | Resources                                                                                      |
+| ------------------------------------------------------------------------------ | ---------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [Day 1](#day-1-introduction-to-machine-learning)                               | 2025-12-08 | Intro to ML                               | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 2](#day-2-major-uses--functions-of-numpy-and-pandas)                      | 2025-12-09 | NumPy & Pandas                            | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
+| [Day 3](#day-3-seaborn-matplotlib--essential-pandas-visualization)             | 2025-12-10 | Visualization                             | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4)                                          |
+| [Day 4](#day-4-exploratory-data-analysis-eda)                                  | 2025-12-12 | EDA                                       | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 5](#day-5-introduction-to-object-oriented-programming-oop-in-python)      | 2025-12-13 | OOP in Python                             | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
+| [Day 6](#day-6-working-with-csv-json-sql--apis)                                | 2025-12-14 | Data Manipulation                         | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 7](#day-7-web-scraping-api-data-extraction--understanding-your-data)      | 2025-12-15 | Web Scraping, APIs & Data Understanding   | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 8](#day-8-univariate-analysis-in-exploratory-data-analysis)               | 2025-12-20 | Univariate Analysis                       | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 9](#day-9-multivariate-analysis--pandas-profiling)                        | 2025-12-25 | Multivariate Analysis & Pandas Profiling  | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 10](#day-10-feature-engineering--feature-scaling)                         | 2025-12-26 | Feature Engineering & Scaling             | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 11](#day-11-encoding-categorical-labels)                                  | 2025-12-27 | Encoding Categorical Labels               | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 12](#day-12-introduction-to-scikit-learn-pipelines)                       | 2025-12-28 | Scikit-Learn Pipelines                    | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 13](#day-13-feature-transformation-techniques)                            | 2026-01-11 | Feature Transformation Techniques         | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 14](#day-14-advanced-feature-transformation-techniques)                   | 2026-01-12 | Power Transformer, Binning & Binarization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 15](#day-15-feature-engineering-with-mixed-date-time-and-missing-data)    | 2026-01-13 | Mixed Variables, Date-Time & Missing Data | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 16](#day-16-handling-missing-data-for-categorical-and-numerical-features) | 2026-01-18 | Missing Data – Imputation & CCA           | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 17](#day-17-advanced-missing-data-techniques)                             | 2026-01-19 | Missing Indicator, Random Sample & MICE   | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                       |
+| [Day 18](#day-18-outlier-detection--feature-engineering)                       | 2026-01-26 | Outlier Detection & Feature Engineering   | [CampusX – 100 Days of ML](https://youtu.be/OnPE-Z8jtqM)                                       |
+| [Day 19](#day-19-principal-component-analysis-pca--fundamentals--intuition)    | 2026-01-27 | PCA – Intuition & Eigen Decomposition     | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                       |
+| [Day 20](#day-20-pca-implementation-using-scikit-learn)                        | 2026-01-28 | PCA – Implementation with Scikit-learn    | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                       |
 
 ---
 
@@ -1186,32 +1212,5 @@ The **curse of dimensionality** refers to challenges that arise as the number of
         <img src="https://img.shields.io/badge/▲_Jump_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Top" />
     </a>
 </div>
-
----
-
-## Daily Progress Tracker
-
-| Days   | Date       | Topics                                                                                                                     | Resources                                                                                                                                                  |
-| ------ | ---------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Day 1  | 2025-12-08 | Intro to ML                                                                                                                | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 2  | 2025-12-09 | NumPy & Pandas                                                                                                             | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)                                                             |
-| Day 3  | 2025-12-10 | Visualization                                                                                                              | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY)                                           |
-| Day 4  | 2025-12-12 | EDA                                                                                                                        | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 5  | 2025-12-13 | OOP                                                                                                                        | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)                                                             |
-| Day 6  | 2025-12-14 | Data Manipulation                                                                                                          | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 7  | 2025-12-15 | Web Scraping, APIs & Data Understanding                                                                                    | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
-| Day 8  | 2025-12-20 | Univariate Analysis                                                                                                        | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 9  | 2025-12-25 | Multivariate & Pandas Profiling                                                                                            | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization                                                              | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 11 | 2025-12-27 | Encoding Categorical Labels                                                                                                | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines                                                                                     | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 13 | 2026-01-11 | Feature Transformation Techniques                                                                                          | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw)                                                                                                  |
-| Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization)                                     | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data                                                | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 16 | 2026-01-18 | Handling Missing Data (Numerical & Categorical), Imputation & Complete Case Analysis (CCA)                                 | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 17 | 2026-01-19 | Advanced Missing Data Techniques: Missing Indicator, Random Sample Imputation & MICE                                       | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
-| Day 18 | 2026-01-26 | Outlier Detection & Feature Engineering: Z-Score, IQR & Percentile Methods, Feature Construction & Curse of Dimensionality | [CampusX – 100 Days of ML](https://youtu.be/OnPE-Z8jtqM)                                                                                                   |
-| Day 19 | 2026-01-27 | Principal Component Analysis (PCA): Intuition, Variance, Covariance Matrix & Eigen Decomposition                           | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                                                                                   |
-| Day 20 | 2026-01-28 | Principal Component Analysis (PCA): Implementation Using Scikit-learn                                                      | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                                                                                   |
 
 ---

@@ -1,4 +1,4 @@
-# MY AI/ML LEARNING JOURNEY
+# MY LEARNING JOURNEY
 
 <div align="center">
   <a href="#daily-learning-progress" title="Jump to today's entry">
@@ -1214,3 +1214,4 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 </div>
 
 ---
+

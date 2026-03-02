@@ -87,8 +87,7 @@
 **Key Insights:**  
 Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.
 
-![ML Result 1](./DAILY_LEARNING_LOGS/ASSETS/IMAGES/ml1_result.webp)
-![ML Result 2](./DAILY_LEARNING_LOGS/ASSETS/IMAGES/ml2_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml1_result_result.png)
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml2_result.webp)
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml3_result.webp)
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml4_result.webp)

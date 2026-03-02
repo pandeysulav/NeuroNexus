@@ -1,22 +1,10 @@
 # MY AI/ML LEARNING JOURNEY
 
 <div align="center">
-  <img src="https://img.shields.io/github/last-commit/pandeysulav/NEURONEXUS" alt="Last Updated" />
-  <img src="https://img.shields.io/github/repo-size/pandeysulav/NEURONEXUS" alt="Repo Size" />
+  <a href="#daily-learning-progress" title="Jump to today's entry">
+    <img src="https://img.shields.io/badge/▼_Click_to_Navigate_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
+  </a>
 </div>
-
-<br>
-
-<div align="center">
-    <img src="ASSETS/cover.png" alt="365 Days of AI/ML Learning cover" width="400" />
-</div>
-
-<div align="center">
-    <a href="#bottom" title="Jump to today's entry">
-        <img src="https://img.shields.io/badge/▼_Click_to_Navigate_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
-    </a>
-</div>
-
 > [!note]
 > I'll share progress and demos on **LinkedIn** and **Twitter**.  
 > Updates will be concise and focused on what I actually built or explored.

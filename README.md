@@ -137,11 +137,11 @@ Machine Learning is the foundation of modern AI systems. It enables data-driven 
 **Key Insights:**  
 NumPy accelerates mathematical operations, while Pandas simplifies working with structured datasets — together forming the backbone of ML workflows.
 
-![](./ASSETS/ml8.png)
-![](./ASSETS/ml9.png)
-![](./ASSETS/ml10.png)
-![](./ASSETS/ml11.png)
-![](./ASSETS/ml12.png)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml8_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml9_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml10_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml11_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml12_result.webp)
 
 ---
 

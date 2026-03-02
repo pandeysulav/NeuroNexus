@@ -36,20 +36,20 @@
 
 | Books & Courses                           | Completion Status |
 | ----------------------------------------- | ----------------- |
-| Essence of Linear Algebra @3Blue1Brown    | ✅                 |
-| Machine Learning Specialization @Coursera | ✅                 |
-| ML Playlist @CampusX                      | ⏳                 |
-| Hands-On Machine Learning (Sklearn & TF)  | ⏳                 |
-| MIT Intro to Deep Learning                | ⏳                 |
-| Deep Learning Playlist @CampusX           | ⏳                 |
-| Neural Networks @3Blue1Brown              | ⏳                 |
-| fastai Deep Learning                      | ⏳                 |
-| Karpathy Zero to Hero                     | ⏳                 |
-| LangChain Intro @Pinecone                 | ⏳                 |
-| ML Resources Web                          | ⏳                 |
-| GenAI Handbook                            | ⏳                 |
-| HF Deep RL Course                         | ⏳                 |
-| RLHF Book                                 | ⏳                 |
+| Essence of Linear Algebra @3Blue1Brown    | ✅                |
+| Machine Learning Specialization @Coursera | ✅                |
+| ML Playlist @CampusX                      | ⏳                |
+| Hands-On Machine Learning (Sklearn & TF)  | ⏳                |
+| MIT Intro to Deep Learning                | ⏳                |
+| Deep Learning Playlist @CampusX           | ⏳                |
+| Neural Networks @3Blue1Brown              | ⏳                |
+| fastai Deep Learning                      | ⏳                |
+| Karpathy Zero to Hero                     | ⏳                |
+| LangChain Intro @Pinecone                 | ⏳                |
+| ML Resources Web                          | ⏳                |
+| GenAI Handbook                            | ⏳                |
+| HF Deep RL Course                         | ⏳                |
+| RLHF Book                                 | ⏳                |
 
 ---
 
@@ -63,7 +63,7 @@
 **Day:** Day 1  
 **Topic:** What is Machine Learning?
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
 - Machine Learning is a subset of AI that enables computers to learn patterns from data.
 - ML systems improve automatically through experience.
@@ -73,13 +73,20 @@
 **Key Insights:**  
 Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.
 
-![](./ASSETS/ml1.png)
-![](./ASSETS/ml2.png)
-![](./ASSETS/ml3.png)
-![](./ASSETS/ml4.png)
-![](./ASSETS/ml5.png)
-![](./ASSETS/ml6.png)
-![](./ASSETS/ml7.png)
+### 📸 Screenshots
+
+<details>
+<summary>Click to view screenshots</summary>
+
+<img src="./ASSETS/ml1.png" width="700">
+<img src="./ASSETS/ml2.png" width="700">
+<img src="./ASSETS/ml3.png" width="700">
+<img src="./ASSETS/ml4.png" width="700">
+<img src="./ASSETS/ml5.png" width="700">
+<img src="./ASSETS/ml6.png" width="700">
+<img src="./ASSETS/ml7.png" width="700">
+
+</details>
 
 ---
 
@@ -98,11 +105,11 @@ Machine Learning is the foundation of modern AI systems. It enables data-driven 
 
 ### **Key NumPy Functions Learned:**
 
-- `np.array()`  
-- `np.arange()`, `np.linspace()`  
-- `reshape()`  
-- Indexing & slicing  
-- `np.mean()`, `np.sum()`, `np.max()`  
+- `np.array()`
+- `np.arange()`, `np.linspace()`
+- `reshape()`
+- Indexing & slicing
+- `np.mean()`, `np.sum()`, `np.max()`
 - `copy()` vs **views**
 
 ### **Pandas Overview**
@@ -113,11 +120,11 @@ Machine Learning is the foundation of modern AI systems. It enables data-driven 
 
 ### **Key Pandas Functions Learned:**
 
-- `pd.Series()`, `pd.DataFrame()`  
-- `read_csv()`  
-- `.head()`, `.info()`, `.describe()`  
-- `.loc[]` and `.iloc[]`  
-- Handling missing values: `.isnull()`, `.fillna()`  
+- `pd.Series()`, `pd.DataFrame()`
+- `read_csv()`
+- `.head()`, `.info()`, `.describe()`
+- `.loc[]` and `.iloc[]`
+- Handling missing values: `.isnull()`, `.fillna()`
 - Filtering, grouping, merging
 
 **Key Insights:**  
@@ -137,32 +144,36 @@ NumPy accelerates mathematical operations, while Pandas simplifies working with 
 **Day:** Day 3  
 **Topic:** Intro to Visualization (Matplotlib, Seaborn, Pandas)
 
-**Resources Used Today:**  
-- **CampusX Visualization Playlist:** https://youtu.be/3Xc3CA655Y4  
-- **Krish Naik Visualization Tutorial:** https://youtu.be/0P7QnIQDBJY  
+**Resources Used Today:**
+
+- **CampusX Visualization Playlist:** https://youtu.be/3Xc3CA655Y4
+- **Krish Naik Visualization Tutorial:** https://youtu.be/0P7QnIQDBJY
 
 ### **Matplotlib Basics**
+
 - Foundation plotting library in Python.
 - Learned:
   - `plt.plot()`, `plt.title()`, `plt.xlabel()`, `plt.ylabel()`, `plt.show()`
 - Understood axes, figures, subplots.
 
 ### **Seaborn Overview**
+
 - Built on top of Matplotlib.
 - Provides beautiful and statistical plots.
 - Learned:
-  - `sns.countplot()`  
-  - `sns.barplot()`  
-  - `sns.histplot()`  
-  - `sns.pairplot()`  
+  - `sns.countplot()`
+  - `sns.barplot()`
+  - `sns.histplot()`
+  - `sns.pairplot()`
 - Themes:
   - `sns.set_style("whitegrid")`
 
 ### **More Pandas Visualization**
+
 - Pandas integrates directly with Matplotlib.
 - Used `.plot()` for:
-  - Line charts  
-  - Bar charts  
+  - Line charts
+  - Bar charts
   - Histograms
 - Learned sorting & grouping for better visualization preparation.
 
@@ -182,14 +193,14 @@ Visualization helps understand distributions, relationships, and patterns — a 
 **Day:** Day 4  
 **Topic:** EDA using Pandas, Seaborn & Matplotlib
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
 - **EDA Overview:** Understanding dataset structure, detecting missing values, identifying outliers, visualizing distributions and correlations.
 - Checked **missing data** using `train.isnull()` and `sns.heatmap()`.
 - Dropped unnecessary columns like `Cabin`.
 - Imputed missing `Age` values based on passenger class.
 - One-hot encoded categorical variables (`Embarked`) using `pd.get_dummies()`.
-- Visualized distributions with `sns.histplot`, `sns.displot`.  
+- Visualized distributions with `sns.histplot`, `sns.displot`.
 - Countplots for categorical data like `SibSp`, `Pclass`, `Embarked`.
 
 **Key Insights:**  
@@ -200,7 +211,8 @@ EDA helps uncover patterns, detect anomalies, and prepare data for ML modeling �
 ![](./ASSETS/ml19.png)
 ![](./ASSETS/ml20.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ---
@@ -211,7 +223,7 @@ EDA helps uncover patterns, detect anomalies, and prepare data for ML modeling �
 **Day:** Day 5  
 **Topic:** OOP Concepts in Python
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
 - **OOP Overview:** Programming paradigm based on objects and classes.
 - Key concepts in Python:
@@ -235,7 +247,8 @@ OOP allows building modular, reusable, and maintainable code — essential for s
 ![](./ASSETS/ml26.png)
 ![](./ASSETS/ml27.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [Krish Naik Machine Learning Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&si=J4ArLgWFJbz8tsWA)
 
 ---
@@ -246,7 +259,7 @@ OOP allows building modular, reusable, and maintainable code — essential for s
 **Day:** Day 6  
 **Topic:** Data Manipulation
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
 - **CSV:** Loaded structured datasets using `pd.read_csv()` and explored tabular data efficiently.
 - **JSON:** Worked with nested and structured JSON data using `pd.read_json()` and API responses.
@@ -262,7 +275,8 @@ Most real-world ML pipelines rely on external data sources like files, databases
 ![](./ASSETS/ml31.png)
 ![](./ASSETS/ml32.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ---
@@ -318,7 +332,8 @@ Web scraping and APIs unlock vast data sources, while understanding your data pr
 ![](./ASSETS/ml37.png)
 ![](./ASSETS/ml38.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 - [Krish Naik Web Scraping Tutorial](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)
 
@@ -335,11 +350,13 @@ Web scraping and APIs unlock vast data sources, while understanding your data pr
 - Essential before bivariate and multivariate analysis.
 
 #### **Numerical Variables**
+
 - Used `sns.histplot()`, `sns.displot()`, `sns.kdeplot()`
 - Interpreted mean, median, skewness
 - Used `stat='density'` and `stat='probability'`
 
 #### **Categorical Variables**
+
 - Used `sns.countplot()` and `value_counts()`
 - Analyzed class imbalance
 - Differentiated categories using `palette`
@@ -353,10 +370,12 @@ Univariate analysis builds strong intuition about individual features and direct
 ![](./ASSETS/ml40.png)
 ![](./ASSETS/ml41.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ---
+
 ---
 
 ### **Day 9: Multivariate Analysis & Pandas Profiling**
@@ -365,7 +384,7 @@ Univariate analysis builds strong intuition about individual features and direct
 **Day:** Day 9  
 **Topic:** Multivariate Analysis & Pandas Profiling
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
 - Multivariate analysis explores relationships between multiple variables.
 - Visualized correlations using `sns.heatmap`, `pairplot`.
@@ -391,33 +410,34 @@ Multivariate analysis combined with profiling automates insights, highlights com
 ![](./ASSETS/ml54.png)
 ![](./ASSETS/ml55.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
-### **Day 10: Feature Engineering & Feature Scaling**  
+### **Day 10: Feature Engineering & Feature Scaling**
 
 **Date:** 2025-12-26  
 **Day:** Day 10  
-**Topic:** Feature Engineering Principles in Machine Learning, Standardization & Types of Normalization  
+**Topic:** Feature Engineering Principles in Machine Learning, Standardization & Types of Normalization
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Feature Engineering Principles:**  
-  - Selecting relevant features and transforming raw data to improve model performance.  
-  - Creating new features from existing data to capture important patterns.  
-  - Handling missing values, categorical encoding, and reducing multicollinearity.  
+- **Feature Engineering Principles:**
+  - Selecting relevant features and transforming raw data to improve model performance.
+  - Creating new features from existing data to capture important patterns.
+  - Handling missing values, categorical encoding, and reducing multicollinearity.
 
-- **Feature Scaling:**  
-  - **Standardization:** Transforming features to have **mean = 0** and **standard deviation = 1**.  
-  - **Normalization:** Scaling features to a specific range, commonly **[0, 1]** or **[-1, 1]**.  
-  - Types of normalization: **Min-Max scaling, Max-Abs scaling, and Robust scaling** for handling outliers.  
+- **Feature Scaling:**
+  - **Standardization:** Transforming features to have **mean = 0** and **standard deviation = 1**.
+  - **Normalization:** Scaling features to a specific range, commonly **[0, 1]** or **[-1, 1]**.
+  - Types of normalization: **Min-Max scaling, Max-Abs scaling, and Robust scaling** for handling outliers.
 
-- Applied scaling techniques on the dataset to prepare for machine learning models.  
-- Explored feature relationships and their impact on model learning.  
-- Visualized scaled vs unscaled data distributions to understand transformations.  
+- Applied scaling techniques on the dataset to prepare for machine learning models.
+- Explored feature relationships and their impact on model learning.
+- Visualized scaled vs unscaled data distributions to understand transformations.
 
 **Key Insights:**  
-Feature engineering and scaling are crucial preprocessing steps that directly affect model accuracy, convergence, and generalization. Choosing the right scaling method depends on the algorithm and data distribution.  
+Feature engineering and scaling are crucial preprocessing steps that directly affect model accuracy, convergence, and generalization. Choosing the right scaling method depends on the algorithm and data distribution.
 
 ![](./ASSETS/ml56.jpeg)  
 ![](./ASSETS/ml57.jpeg)  
@@ -444,38 +464,39 @@ Feature engineering and scaling are crucial preprocessing steps that directly af
 ![](./ASSETS/ml78.png)  
 ![](./ASSETS/ml79.png)  
 ![](./ASSETS/ml80.png)  
-![](./ASSETS/ml81.png)  
+![](./ASSETS/ml81.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
----
 
+---
 
 ### **Day 11: Encoding Categorical Labels**
 
 **Date:** 2025-12-27  
 **Day:** Day 11  
-**Topic:** Encoding Categorical Labels using Imputer, Ordinal Encoder & One-Hot Encoder  
+**Topic:** Encoding Categorical Labels using Imputer, Ordinal Encoder & One-Hot Encoder
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Handling Missing Categorical Data:**  
-  - Used **SimpleImputer** to fill missing categorical values using strategies like `most_frequent`.  
+- **Handling Missing Categorical Data:**
+  - Used **SimpleImputer** to fill missing categorical values using strategies like `most_frequent`.
   - Ensured categorical columns had no missing values before encoding.
 
-- **Ordinal Encoding:**  
-  - Applied **OrdinalEncoder** for categorical features with an inherent order.  
-  - Explicitly defined category order to maintain consistency and meaning.  
+- **Ordinal Encoding:**
+  - Applied **OrdinalEncoder** for categorical features with an inherent order.
+  - Explicitly defined category order to maintain consistency and meaning.
   - Useful for features where relative ranking matters.
 
-- **One-Hot Encoding:**  
-  - Used **OneHotEncoder** to convert nominal categorical variables into binary vectors.  
-  - Applied `drop='first'` to avoid dummy variable trap.  
+- **One-Hot Encoding:**
+  - Used **OneHotEncoder** to convert nominal categorical variables into binary vectors.
+  - Applied `drop='first'` to avoid dummy variable trap.
   - Transformed categorical features into model-friendly numerical format.
 
-- **ColumnTransformer:**  
-  - Combined imputing and encoding steps into a single preprocessing pipeline.  
-  - Applied different transformations to different columns efficiently.  
+- **ColumnTransformer:**
+  - Combined imputing and encoding steps into a single preprocessing pipeline.
+  - Applied different transformations to different columns efficiently.
 
 **Key Insights:**  
 Proper encoding of categorical variables is essential for machine learning models to interpret non-numeric data correctly. Choosing between ordinal and one-hot encoding depends on whether the categorical feature has an inherent order.
@@ -498,9 +519,10 @@ Proper encoding of categorical variables is essential for machine learning model
 ![](./ASSETS/ml97.png)  
 ![](./ASSETS/ml98.png)  
 ![](./ASSETS/ml99.png)  
-![](./ASSETS/ml100.png)  
+![](./ASSETS/ml100.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ---
@@ -509,24 +531,24 @@ Proper encoding of categorical variables is essential for machine learning model
 
 **Date:** 2025-12-28  
 **Day:** Day 12  
-**Topic:** Importance of Scikit-Learn Pipelines in Machine Learning Projects  
+**Topic:** Importance of Scikit-Learn Pipelines in Machine Learning Projects
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Introduction to Pipelines:**  
-  - Learned what a **Scikit-learn Pipeline** is and why it is essential in machine learning workflows.  
+- **Introduction to Pipelines:**
+  - Learned what a **Scikit-learn Pipeline** is and why it is essential in machine learning workflows.
   - Understood how pipelines chain preprocessing steps and models into a single object.
 
-- **Avoiding Data Leakage:**  
-  - Learned how pipelines prevent data leakage by ensuring preprocessing is applied only on training data during cross-validation.  
+- **Avoiding Data Leakage:**
+  - Learned how pipelines prevent data leakage by ensuring preprocessing is applied only on training data during cross-validation.
   - Ensured consistent transformations for both training and test datasets.
 
-- **Clean & Maintainable Workflow:**  
-  - Pipelines make machine learning code **cleaner, modular, and easier to debug**.  
+- **Clean & Maintainable Workflow:**
+  - Pipelines make machine learning code **cleaner, modular, and easier to debug**.
   - Simplifies experimentation by allowing easy replacement of steps.
 
-- **Compatibility with GridSearchCV:**  
-  - Learned how pipelines work seamlessly with **GridSearchCV** for hyperparameter tuning.  
+- **Compatibility with GridSearchCV:**
+  - Learned how pipelines work seamlessly with **GridSearchCV** for hyperparameter tuning.
   - Understood that pipelines allow safe tuning of both preprocessing and model parameters together.
 
 **Key Insights:**  
@@ -539,29 +561,30 @@ Scikit-learn pipelines are a best practice for building robust machine learning 
 ![](./ASSETS/ml105.png)  
 ![](./ASSETS/ml106.png)  
 ![](./ASSETS/ml107.png)  
-![](./ASSETS/ml108.png)  
+![](./ASSETS/ml108.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 13: Feature Transformation Techniques**
 
 **Date:** 2025-12-29  
 **Day:** Day 13  
-**Topic:** Function Transformer, Log Transformer, and Box-Cox Transformer in Machine Learning  
+**Topic:** Function Transformer, Log Transformer, and Box-Cox Transformer in Machine Learning
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Function Transformer:**  
-  - Learned about the **FunctionTransformer** in Scikit-learn, which allows wrapping custom functions (like lambda or predefined) into pipelines for easy application on data.  
+- **Function Transformer:**
+  - Learned about the **FunctionTransformer** in Scikit-learn, which allows wrapping custom functions (like lambda or predefined) into pipelines for easy application on data.
   - It's useful for applying arbitrary transformations without creating custom classes.
 
-- **Log Transformer:**  
-  - Explored the log transformer (e.g., using np.log or np.log1p) to handle right-skewed data distributions.  
+- **Log Transformer:**
+  - Explored the log transformer (e.g., using np.log or np.log1p) to handle right-skewed data distributions.
   - It helps in stabilizing variance and making features more normally distributed, improving model performance on algorithms that assume normality.
 
-- **Box-Cox Transformer:**  
-  - Understood the Box-Cox transformation, a power transform that finds the optimal lambda to normalize data and reduce skewness.  
+- **Box-Cox Transformer:**
+  - Understood the Box-Cox transformation, a power transform that finds the optimal lambda to normalize data and reduce skewness.
   - It's particularly effective for positive-valued data and can be integrated into pipelines for automated preprocessing.
 
 **Key Insights:**  
@@ -583,38 +606,39 @@ These transformation techniques are crucial for preprocessing skewed features in
 ![](./ASSETS/ml122.png)  
 ![](./ASSETS/ml123.png)  
 ![](./ASSETS/ml124.png)  
-![](./ASSETS/ml125.png)  
+![](./ASSETS/ml125.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 14: Advanced Feature Transformation Techniques**
 
 **Date:** 2025-12-30  
 **Day:** Day 14  
-**Topic:** Power Transformer, Binning, and Binarization in Machine Learning  
+**Topic:** Power Transformer, Binning, and Binarization in Machine Learning
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Power Transformer:**  
-  - Learned about the **PowerTransformer** in Scikit-learn, used to make features more Gaussian-like by reducing skewness and stabilizing variance.  
+- **Power Transformer:**
+  - Learned about the **PowerTransformer** in Scikit-learn, used to make features more Gaussian-like by reducing skewness and stabilizing variance.
   - Particularly helpful for models that assume normality, such as linear and logistic regression.
 
-- **Types of Power Transformation:**  
-  - **Box-Cox Transformation:**  
-    - Applicable only to **positive-valued data**.  
-    - Automatically finds the optimal lambda to normalize feature distributions.  
-  - **Yeo-Johnson Transformation:**  
-    - Supports **both positive and negative values**.  
+- **Types of Power Transformation:**
+  - **Box-Cox Transformation:**
+    - Applicable only to **positive-valued data**.
+    - Automatically finds the optimal lambda to normalize feature distributions.
+  - **Yeo-Johnson Transformation:**
+    - Supports **both positive and negative values**.
     - More flexible and commonly used for real-world datasets.
 
-- **Binning (Discretization):**  
-  - Learned how continuous numerical features can be converted into **discrete intervals (bins)**.  
-  - Helps capture non-linear patterns and reduces the impact of noise.  
+- **Binning (Discretization):**
+  - Learned how continuous numerical features can be converted into **discrete intervals (bins)**.
+  - Helps capture non-linear patterns and reduces the impact of noise.
   - Improves interpretability and works well with tree-based models.
 
-- **Binarization:**  
-  - Studied binarization techniques that transform numerical values into **binary (0/1)** features using a threshold.  
+- **Binarization:**
+  - Studied binarization techniques that transform numerical values into **binary (0/1)** features using a threshold.
   - Useful in feature engineering, rule-based systems, and preprocessing steps.
 
 **Key Insights:**  
@@ -634,31 +658,32 @@ Power transformers improve feature distributions and model stability, while binn
 ![](./ASSETS/ml137.png)  
 ![](./ASSETS/ml138.png)  
 ![](./ASSETS/ml139.png)  
-![](./ASSETS/ml140.png)  
+![](./ASSETS/ml140.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 15: Feature Engineering with Mixed, Date-Time, and Missing Data**
 
 **Date:** 2025-12-31  
 **Day:** Day 15  
-**Topic:** Handling Mixed Variables, Date-Time Variables, and Missing Data in Machine Learning  
+**Topic:** Handling Mixed Variables, Date-Time Variables, and Missing Data in Machine Learning
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Handling Mixed Variables:**  
-  - Worked with datasets containing numerical, categorical, and ordinal features.  
-  - Applied appropriate preprocessing techniques for different data types.  
+- **Handling Mixed Variables:**
+  - Worked with datasets containing numerical, categorical, and ordinal features.
+  - Applied appropriate preprocessing techniques for different data types.
 
-- **Date-Time Variables:**  
-  - Extracted useful features from date-time data such as year, month, day, and day of the week.  
-  - Learned how temporal features help models capture patterns and trends.  
+- **Date-Time Variables:**
+  - Extracted useful features from date-time data such as year, month, day, and day of the week.
+  - Learned how temporal features help models capture patterns and trends.
 
-- **Handling Missing Data:**  
-  - Identified missing values in real-world datasets.  
-  - Applied techniques like dropping values and imputing using mean, median, and mode.  
-  - Understood the impact of missing data on model performance.  
+- **Handling Missing Data:**
+  - Identified missing values in real-world datasets.
+  - Applied techniques like dropping values and imputing using mean, median, and mode.
+  - Understood the impact of missing data on model performance.
 
 **Key Insights:**  
 Effective feature engineering requires proper handling of mixed variables, meaningful extraction from date-time data, and robust strategies for dealing with missing values to improve model accuracy and stability.
@@ -675,35 +700,36 @@ Effective feature engineering requires proper handling of mixed variables, meani
 ![](./ASSETS/ml150.png)  
 ![](./ASSETS/ml151.png)  
 ![](./ASSETS/ml152.png)  
-![](./ASSETS/ml153.png)  
+![](./ASSETS/ml153.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 16: Handling Missing Data for Categorical and Numerical Features**
 
 **Date:** 2026-01-18  
 **Day:** Day 16  
-**Topic:** Handling Missing Data in Machine Learning – Numerical & Categorical, Complete Case Analysis  
+**Topic:** Handling Missing Data in Machine Learning – Numerical & Categorical, Complete Case Analysis
 
-**What I Learned Today:**  
+**What I Learned Today:**
 
-- **Handling Missing Numerical Data:**  
-  - Used `SimpleImputer` to fill missing numerical values with **mean, median, or mode**.  
-  - Learned that imputing keeps dataset size intact and reduces bias for numerical features.  
+- **Handling Missing Numerical Data:**
+  - Used `SimpleImputer` to fill missing numerical values with **mean, median, or mode**.
+  - Learned that imputing keeps dataset size intact and reduces bias for numerical features.
 
-- **Handling Missing Categorical Data:**  
-  - Applied `SimpleImputer` to fill missing categorical values using **mode**.  
-  - Learned that categorical imputations maintain consistent categories for ML models.  
+- **Handling Missing Categorical Data:**
+  - Applied `SimpleImputer` to fill missing categorical values using **mode**.
+  - Learned that categorical imputations maintain consistent categories for ML models.
 
-- **Complete Case Analysis (CCA):**  
-  - Dropped rows with any missing values instead of imputing.  
-  - **Advantages:**  
-    - Very simple and easy to implement.  
-    - Preserves distribution of remaining data if missingness is MCAR.  
-  - **Disadvantages:**  
-    - Can **lose a lot of data**, reducing statistical power.  
-    - Introduces **bias** if data is not Missing Completely at Random (MCAR).  
+- **Complete Case Analysis (CCA):**
+  - Dropped rows with any missing values instead of imputing.
+  - **Advantages:**
+    - Very simple and easy to implement.
+    - Preserves distribution of remaining data if missingness is MCAR.
+  - **Disadvantages:**
+    - Can **lose a lot of data**, reducing statistical power.
+    - Introduces **bias** if data is not Missing Completely at Random (MCAR).
 
 **Key Insights:**  
 Handling missing data carefully is crucial for both categorical and numerical features. Imputation maintains dataset size and consistency, while CCA can be used when missingness is random but may result in data loss. Choosing the right strategy improves model accuracy and stability.
@@ -721,27 +747,30 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 ![](./ASSETS/ml164.png)  
 ![](./ASSETS/ml165.png)  
 ![](./ASSETS/ml166.png)  
-![](./ASSETS/ml167.png)  
+![](./ASSETS/ml167.png)
 
-**Resources Used Today:**  
+**Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 17: Advanced Missing Data Techniques**
 
 **Date:** 2026-01-19  
 **Day:** Day 17  
-**Topic:** Handling Missing Data – Missing Indicator, Random Sample Imputation & MICE Algorithm  
+**Topic:** Handling Missing Data – Missing Indicator, Random Sample Imputation & MICE Algorithm
 
 ---
 
 ## **What I Learned Today:**
 
 ### **1. Missing Indicator Method**
+
 - Created a **new binary feature** to indicate whether the original value was missing or not.
 - Applied this technique alongside imputation (mean/median/mode).
 - Learned that missingness itself can carry **useful information** for ML models.
 
 **Key Points:**
+
 - Helps models learn patterns related to missing data.
 - Especially useful when data is **Missing Not At Random (MNAR)**.
 - Increases feature space but can improve predictive performance.
@@ -749,10 +778,12 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 ---
 
 ### **2. Random Sample Imputation**
+
 - Replaced missing values by randomly sampling from the **existing non-missing values** of the same feature.
 - Maintains the **original distribution** of the data better than mean/median imputation.
 
 **Key Points:**
+
 - Preserves variance and distribution.
 - Introduces randomness, which can slightly increase noise.
 - Useful when maintaining statistical properties is important.
@@ -760,11 +791,13 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 ---
 
 ### **3. MICE (Multiple Imputation by Chained Equations)**
+
 - Learned about **iterative multivariate imputation**.
 - Each feature with missing values is predicted using other features as input.
 - Repeated over multiple iterations to refine imputed values.
 
 **Key Points:**
+
 - Handles complex relationships between features.
 - Produces more realistic imputations.
 - Computationally expensive but highly effective for advanced ML workflows.
@@ -772,16 +805,19 @@ Handling missing data carefully is crucial for both categorical and numerical fe
 ---
 
 ## **Key Insights:**
-Advanced missing data techniques go beyond simple imputation.  
-- **Missing indicators** allow models to capture hidden patterns in missingness.  
-- **Random sample imputation** preserves data distribution.  
-- **MICE** leverages relationships between features to generate high-quality imputations.  
+
+Advanced missing data techniques go beyond simple imputation.
+
+- **Missing indicators** allow models to capture hidden patterns in missingness.
+- **Random sample imputation** preserves data distribution.
+- **MICE** leverages relationships between features to generate high-quality imputations.
 
 Choosing the right method depends on data size, missingness mechanism, and model complexity.
 
 ---
 
 ## **Visual References:**
+
 ![](./ASSETS/ml168.png)  
 ![](./ASSETS/ml169.png)  
 ![](./ASSETS/ml170.png)  
@@ -810,29 +846,33 @@ Choosing the right method depends on data size, missingness mechanism, and model
 ![](./ASSETS/ml193.png)  
 ![](./ASSETS/ml194.png)  
 ![](./ASSETS/ml195.png)  
-![](./ASSETS/ml196.png)  
+![](./ASSETS/ml196.png)
 
 ---
+
 ### **Day 18: Outlier Detection & Feature Engineering**
 
 **Date:** 2026-01-26  
-**Day:** Day 18 
-**Topic:** Outlier Detection & Removal – Z-Score, IQR, Percentile Method | Feature Construction & Feature Splitting | Curse of Dimensionality  
+**Day:** Day 18
+**Topic:** Outlier Detection & Removal – Z-Score, IQR, Percentile Method | Feature Construction & Feature Splitting | Curse of Dimensionality
 
 ---
 
 ## **What I Learned Today:**
 
 ### **1. Outlier Detection & Removal**
+
 Outliers are extreme values that significantly deviate from the majority of the data and can negatively impact machine learning models, especially statistical and distance-based models.
 
 ---
 
 ### **a) Z-Score Method**
+
 - Detects outliers using **mean and standard deviation**.
 - A data point is treated as an outlier if its Z-score exceeds a threshold (commonly |Z| > 3).
 
 **Key Points:**
+
 - Suitable for **normally distributed data**.
 - Sensitive to extreme values.
 - Simple and computationally efficient.
@@ -840,11 +880,13 @@ Outliers are extreme values that significantly deviate from the majority of the 
 ---
 
 ### **b) IQR (Interquartile Range) Method**
+
 - Uses **Q1 (25th percentile)** and **Q3 (75th percentile)**.
 - Outliers lie outside:  
   **[Q1 − 1.5 × IQR, Q3 + 1.5 × IQR]**
 
 **Key Points:**
+
 - Robust against skewed distributions.
 - Less affected by extreme values.
 - Widely used in practical ML workflows.
@@ -852,9 +894,11 @@ Outliers are extreme values that significantly deviate from the majority of the 
 ---
 
 ### **c) Percentile Method**
+
 - Defines outliers using **lower and upper percentile cutoffs** (e.g., 1st and 99th percentile).
 
 **Key Points:**
+
 - Easy to implement and interpret.
 - Useful when domain-specific thresholds exist.
 - Risk of removing valid extreme values if poorly chosen.
@@ -864,10 +908,12 @@ Outliers are extreme values that significantly deviate from the majority of the 
 ## **2. Feature Engineering**
 
 ### **a) Feature Construction**
+
 - Creating **new meaningful features** from existing ones.
 - Includes ratios, interactions, polynomial features, and domain-driven transformations.
 
 **Importance:**
+
 - Improves model’s ability to capture complex patterns.
 - Often yields larger performance gains than changing algorithms.
 - A critical step in building strong ML models.
@@ -875,12 +921,14 @@ Outliers are extreme values that significantly deviate from the majority of the 
 ---
 
 ### **b) Feature Splitting**
+
 - Breaking a single feature into multiple informative features.
 - Examples:
   - Date → Day, Month, Year
   - Address → City, State, Country
 
 **Importance:**
+
 - Enhances interpretability.
 - Helps models learn fine-grained patterns.
 - Reduces information loss.
@@ -888,15 +936,18 @@ Outliers are extreme values that significantly deviate from the majority of the 
 ---
 
 ## **3. Curse of Dimensionality**
+
 The **curse of dimensionality** refers to challenges that arise as the number of features increases.
 
 **Key Issues:**
+
 - Data sparsity in high-dimensional space.
 - Reduced effectiveness of distance-based models (KNN, clustering).
 - Increased computational complexity.
 - Higher risk of overfitting.
 
 **Why It Matters:**
+
 - More features do not always improve performance.
 - Encourages feature selection and dimensionality reduction.
 - Promotes smarter feature engineering over blind feature expansion.
@@ -904,6 +955,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Key Insights:**
+
 - Proper outlier handling is essential for robust ML pipelines.
 - Different datasets require different outlier detection strategies.
 - Feature engineering directly influences model success.
@@ -912,6 +964,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Visual References:**
+
 ![](./ASSETS/ml198.png)  
 ![](./ASSETS/ml199.png)  
 ![](./ASSETS/ml200.png)  
@@ -932,37 +985,42 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ![](./ASSETS/ml215.png)  
 ![](./ASSETS/ml216.png)  
 ![](./ASSETS/ml217.png)  
-![](./ASSETS/ml218.png)  
+![](./ASSETS/ml218.png)
 
 ## **Resources Used Today:**
+
 - [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)
 
 ### **Day 19: Principal Component Analysis (PCA) – Fundamentals & Intuition**
 
 **Date:** 2026-01-27  
 **Day:** Day 19  
-**Topic:** Principal Component Analysis (PCA) – Variance, Covariance Matrix, Eigen Decomposition & Dimensionality Reduction  
+**Topic:** Principal Component Analysis (PCA) – Variance, Covariance Matrix, Eigen Decomposition & Dimensionality Reduction
 
 ---
 
 ## **What I Learned Today:**
 
 ### **1. Intuition Behind PCA**
+
 - PCA is a **dimensionality reduction technique** that transforms high-dimensional data into a lower-dimensional space.
 - The goal is to **retain maximum information (variance)** while reducing the number of features.
 - PCA finds new axes (principal components) that best represent the data.
 
 **Key Idea:**
+
 > Project data onto directions where **variance is maximum**.
 
 ---
 
 ### **2. Why Variance Is Important**
+
 - Variance represents the **spread of data**.
 - High variance directions contain **more information**.
 - Low variance directions often represent **noise or redundancy**.
 
 **Why PCA Maximizes Variance:**
+
 - Retaining high variance ensures minimal information loss.
 - Helps models generalize better.
 - Improves performance and computational efficiency.
@@ -970,10 +1028,12 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ### **3. Covariance & Covariance Matrix**
+
 - Covariance measures how two features vary together.
 - A **covariance matrix** captures relationships between all features.
 
 **Key Points:**
+
 - Positive covariance → features increase together.
 - Negative covariance → one increases while the other decreases.
 - PCA uses the covariance matrix to understand feature relationships.
@@ -981,21 +1041,25 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ### **4. Eigenvalues & Eigenvectors (Eigen Decomposition)**
+
 - **Eigenvectors** represent the directions (principal components).
 - **Eigenvalues** represent the amount of variance captured by each eigenvector.
 
 **Interpretation:**
+
 - Largest eigenvalue → most important principal component.
 - Sorting eigenvectors by eigenvalues gives feature importance order.
 
 ---
 
 ### **5. Principal Components**
+
 - Principal components are **new, uncorrelated features**.
 - Each component is a linear combination of original features.
 - First few components capture most of the variance.
 
 **Benefits:**
+
 - Reduces multicollinearity.
 - Simplifies complex datasets.
 - Helps combat the curse of dimensionality.
@@ -1003,6 +1067,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Why PCA Is Important in Machine Learning**
+
 - Reduces dimensionality without significant information loss.
 - Speeds up training and inference.
 - Improves visualization of high-dimensional data.
@@ -1011,6 +1076,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Key Insights:**
+
 - PCA focuses on **variance maximization**.
 - Covariance matrix reveals feature relationships.
 - Eigen decomposition helps identify principal directions.
@@ -1019,6 +1085,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Visual References:**
+
 ![](./ASSETS/ml219.png)  
 ![](./ASSETS/ml220.png)  
 ![](./ASSETS/ml221.png)  
@@ -1036,7 +1103,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ![](./ASSETS/ml233.png)  
 ![](./ASSETS/ml234.png)  
 ![](./ASSETS/ml235.png)  
-![](./ASSETS/ml236.png)  
+![](./ASSETS/ml236.png)
 
 ---
 
@@ -1049,6 +1116,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ### **1. Purpose of PCA**
+
 - Reduce high-dimensional data
 - Retain maximum variance
 - Remove redundancy and noise
@@ -1056,15 +1124,18 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ### **2. Standardization Before PCA**
+
 - PCA is scale-sensitive
 - Features must be standardized
 
 **Tool Used:**
+
 - `StandardScaler`
 
 ---
 
 ### **3. PCA with Scikit-learn**
+
 - Implemented using:
   - `sklearn.decomposition.PCA`
 - Internally uses covariance matrix and SVD
@@ -1072,18 +1143,21 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ### **4. Explained Variance Ratio**
+
 - `explained_variance_ratio_` shows variance captured
 - Helps select optimal number of components
 
 ---
 
 ### **5. Dimensionality Reduction**
+
 - Selected top components based on variance
 - Transformed data into principal components
 
 ---
 
 ## **Key Takeaways:**
+
 - Always standardize before PCA
 - Few components capture most variance
 - PCA improves efficiency and generalization
@@ -1091,6 +1165,7 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ---
 
 ## **Visual References:**
+
 ![](./ASSETS/ml237.png)
 ![](./ASSETS/ml238.png)
 ![](./ASSETS/ml239.png)
@@ -1135,28 +1210,27 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 
 ## Daily Progress Tracker
 
-| Days | Date | Topics | Resources |
-|----|------|--------|-----------|
-| Day 1 | 2025-12-08 | Intro to ML | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 2 | 2025-12-09 | NumPy & Pandas | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
-| Day 3 | 2025-12-10 | Visualization | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY) |
-| Day 4 | 2025-12-12 | EDA | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 5 | 2025-12-13 | OOP | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
-| Day 6 | 2025-12-14 | Data Manipulation | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 7 | 2025-12-15 | Web Scraping, APIs & Data Understanding | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
-| Day 8 | 2025-12-20 | Univariate Analysis | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 9 | 2025-12-25 | Multivariate & Pandas Profiling | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 11 | 2025-12-27 | Encoding Categorical Labels | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 13 | 2026-01-11 | Feature Transformation Techniques | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw) |
-| Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 16 | 2026-01-18 | Handling Missing Data (Numerical & Categorical), Imputation & Complete Case Analysis (CCA) | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 17 | 2026-01-19 | Advanced Missing Data Techniques: Missing Indicator, Random Sample Imputation & MICE | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) |
-| Day 18 | 2026-01-26 | Outlier Detection & Feature Engineering: Z-Score, IQR & Percentile Methods, Feature Construction & Curse of Dimensionality | [CampusX – 100 Days of ML](https://youtu.be/OnPE-Z8jtqM) |
-| Day 19 | 2026-01-27 | Principal Component Analysis (PCA): Intuition, Variance, Covariance Matrix & Eigen Decomposition | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ) |
-| Day 20 | 2026-01-28 | Principal Component Analysis (PCA): Implementation Using Scikit-learn | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ) |
-
+| Days   | Date       | Topics                                                                                                                     | Resources                                                                                                                                                  |
+| ------ | ---------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1  | 2025-12-08 | Intro to ML                                                                                                                | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 2  | 2025-12-09 | NumPy & Pandas                                                                                                             | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)                                                             |
+| Day 3  | 2025-12-10 | Visualization                                                                                                              | [CampusX Visualization](https://youtu.be/3Xc3CA655Y4) • [Krish Naik Visualization](https://youtu.be/0P7QnIQDBJY)                                           |
+| Day 4  | 2025-12-12 | EDA                                                                                                                        | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 5  | 2025-12-13 | OOP                                                                                                                        | [Krish Naik ML Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)                                                             |
+| Day 6  | 2025-12-14 | Data Manipulation                                                                                                          | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 7  | 2025-12-15 | Web Scraping, APIs & Data Understanding                                                                                    | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw) • [Krish Naik Web Scraping](https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) |
+| Day 8  | 2025-12-20 | Univariate Analysis                                                                                                        | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 9  | 2025-12-25 | Multivariate & Pandas Profiling                                                                                            | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 10 | 2025-12-26 | Feature Engineering, Standardization & Types of Normalization                                                              | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 11 | 2025-12-27 | Encoding Categorical Labels                                                                                                | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 12 | 2025-12-28 | Introduction to Scikit-Learn Pipelines                                                                                     | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 13 | 2026-01-11 | Feature Transformation Techniques                                                                                          | [CampusX – 100 Days of ML ](https://youtu.be/ZftI2fEz0Fw)                                                                                                  |
+| Day 14 | 2026-01-12 | Advanced Feature Transformation Techniques (Power Transformer, Binning & Binarization)                                     | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 15 | 2026-01-13 | Feature Engineering with Mixed Variables, Date-Time Features & Missing Data                                                | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 16 | 2026-01-18 | Handling Missing Data (Numerical & Categorical), Imputation & Complete Case Analysis (CCA)                                 | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 17 | 2026-01-19 | Advanced Missing Data Techniques: Missing Indicator, Random Sample Imputation & MICE                                       | [CampusX – 100 Days of ML](https://youtu.be/ZftI2fEz0Fw)                                                                                                   |
+| Day 18 | 2026-01-26 | Outlier Detection & Feature Engineering: Z-Score, IQR & Percentile Methods, Feature Construction & Curse of Dimensionality | [CampusX – 100 Days of ML](https://youtu.be/OnPE-Z8jtqM)                                                                                                   |
+| Day 19 | 2026-01-27 | Principal Component Analysis (PCA): Intuition, Variance, Covariance Matrix & Eigen Decomposition                           | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                                                                                   |
+| Day 20 | 2026-01-28 | Principal Component Analysis (PCA): Implementation Using Scikit-learn                                                      | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                                                                                   |
 
 ---

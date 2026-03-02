@@ -73,15 +73,20 @@
 **Key Insights:**  
 Machine Learning is the foundation of modern AI systems. It enables data-driven predictions and decisions, forming the backbone of automation and intelligent applications.\
 
-![](./ASSETS/ml1.png)
-![](./ASSETS/ml2.png)
-![](./ASSETS/ml3.png)
-![](./ASSETS/ml4.png)
-![](./ASSETS/ml5.png)
-![](./ASSETS/ml6.png)
-![](./ASSETS/ml7.png)
+### 📸 Screenshots
 
----
+<details>
+<summary>Click to view screenshots</summary>
+
+<img src="./ASSETS/IMAGES/ml1.png" width="700">
+<img src="./ASSETS/IMAGES/ml2.png" width="700">
+<img src="./ASSETS/IMAGES/ml3.png" width="700">
+<img src="./ASSETS/IMAGES/ml4.png" width="700">
+<img src="./ASSETS/IMAGES/ml5.png" width="700">
+<img src="./ASSETS/IMAGES/ml6.png" width="700">
+<img src="./ASSETS/IMAGES/ml7.png" width="700">
+
+## </details>
 
 ### **Day 2: Major Uses & Functions of NumPy and Pandas**
 

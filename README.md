@@ -29,9 +29,9 @@
 | Machine Learning Specialization @Coursera | ✅                |
 | ML Playlist @CampusX                      | ⏳                |
 | Hands-On Machine Learning (Sklearn & TF)  | ⏳                |
-| MIT Intro to Deep Learning                | ⏳                |
 | Deep Learning Playlist @CampusX           | ⏳                |
 | Neural Networks @3Blue1Brown              | ⏳                |
+| Karpathy Zero to Hero                     | ⏳                |
 | fastai Deep Learning                      | ⏳                |
 | Karpathy Zero to Hero                     | ⏳                |
 | LangChain Intro @Pinecone                 | ⏳                |
@@ -1214,4 +1214,3 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 </div>
 
 ---
-

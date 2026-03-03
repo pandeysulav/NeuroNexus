@@ -1206,6 +1206,8 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ![](./ASSETS/ml267.png)
 ![](./ASSETS/ml268.png)
 
+---
+
 ### **Day 20: Linear Regression & Regression Metrics**
 
 **Date:** 2026-02-14
@@ -1306,11 +1308,92 @@ MSE = \frac{1}{n}\sum (y - \hat{y})^2
 
 ---
 
+### **Day 21: Gradient Descent & Its Variants**
+
+**Date:** 2026-03-02  
+**Day:** Day 21  
+**Topic:** Gradient Descent (Batch, Stochastic, Mini-Batch)
+
+---
+
+### **1. Intuition Behind Gradient Descent**
+
+- Learned from _Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow_
+- Goal: Minimize the cost function by iteratively updating parameters
+- Core idea:
+  - Move in the direction of the **negative gradient**
+  - Reduce error step-by-step
+- Update Rule:
+  θ = θ − η ∇J(θ)
+  - η → Learning rate
+  - ∇J(θ) → Gradient of cost function
+
+---
+
+### **2. Why Gradient Descent is Important**
+
+- Used to train:
+  - Linear Regression
+  - Logistic Regression
+  - Neural Networks
+- Foundation of most Deep Learning optimization algorithms
+- Enables model to learn from data efficiently
+
+---
+
+### **3. Types of Gradient Descent**
+
+#### (A) Batch Gradient Descent
+
+- Uses entire training dataset
+- Stable but slow for large datasets
+- Computationally expensive
+
+#### (B) Stochastic Gradient Descent (SGD)
+
+- Uses one training example at a time
+- Faster updates
+- Noisy but can escape local minima
+- Useful for very large datasets
+
+#### (C) Mini-Batch Gradient Descent
+
+- Uses small batches of data
+- Balance between stability and speed
+- Most commonly used in practice
+- Efficient with GPU computation
+
+---
+
+### **4. Learning Rate Concept**
+
+- Too small → Slow convergence
+- Too large → Overshooting / Divergence
+- Proper tuning is critical for good performance
+
+---
+
+### **5. Practical Understanding**
+
+- Visualized cost reduction over iterations
+- Observed convergence behavior
+- Understood how optimization improves model accuracy
+- Connected theory with implementation using Scikit-Learn & TensorFlow
+
+---
+
+## **Key Takeaways**
+
+- Gradient Descent is the backbone of ML optimization
+- Different variants suit different dataset sizes
+- Learning rate plays a crucial role
+- Mini-batch GD is most practical in real-world ML and Deep Learning
+
+---
+
 ## **Visual References:**
 
-- Regression line plot
-- Cost vs iterations graph
-- R² comparison visualization
+## **Visual References:**
 
 <div id="bottom"></div>
 <div align="center">

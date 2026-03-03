@@ -1206,6 +1206,112 @@ The **curse of dimensionality** refers to challenges that arise as the number of
 ![](./ASSETS/ml267.png)
 ![](./ASSETS/ml268.png)
 
+### **Day 20: Linear Regression & Regression Metrics**
+
+**Date:** 2026-02-14
+**Day:** 20  
+**Topic:** Linear Regression (Simple & Multiple) + Regression Evaluation Metrics
+
+---
+
+### **1. Linear Regression (Intuition)**
+
+- Models relationship between input (X) and output (y)
+- Assumes linear relationship
+- Equation:
+
+\[
+y = mx + b
+\]
+
+Where:
+
+- m = slope (weight)
+- b = intercept (bias)
+
+**Core Idea:**
+
+- Find best-fitting line that minimizes prediction error
+- Uses Mean Squared Error (MSE) as loss
+- Optimized using Gradient Descent or Normal Equation
+
+---
+
+### **2. Multiple Linear Regression**
+
+- Extension of simple linear regression
+- Handles multiple features
+
+\[
+y = w_1x_1 + w_2x_2 + ... + w_nx_n + b
+\]
+
+**Core Principle:**
+
+- Each feature has its own weight
+- Model learns importance of each feature
+- Represented in vector form:
+
+\[
+y = Xw + b
+\]
+
+---
+
+### **3. Cost Function**
+
+- Used: Mean Squared Error (MSE)
+
+\[
+MSE = \frac{1}{n}\sum (y - \hat{y})^2
+\]
+
+- Convex function → guarantees global minimum
+- Gradient Descent minimizes cost
+
+---
+
+### **4. Regression Evaluation Metrics**
+
+**1. Mean Absolute Error (MAE)**
+
+- Average absolute difference
+- Less sensitive to outliers
+
+**2. Mean Squared Error (MSE)**
+
+- Penalizes large errors
+- Used in optimization
+
+**3. Root Mean Squared Error (RMSE)**
+
+- Square root of MSE
+- Same unit as target
+
+**4. R² Score (Coefficient of Determination)**
+
+- Measures explained variance
+- Range: (-∞, 1]
+- Closer to 1 → better model
+
+---
+
+## **Key Takeaways:**
+
+- Linear regression assumes linear relationship
+- Multiple regression handles multiple features
+- MSE is convex → easy optimization
+- R² measures model quality
+- Feature scaling improves performance in gradient descent
+
+---
+
+## **Visual References:**
+
+- Regression line plot
+- Cost vs iterations graph
+- R² comparison visualization
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">

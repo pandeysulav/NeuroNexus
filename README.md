@@ -1441,62 +1441,93 @@ The **learning rate** determines the size of each update step.
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml376_result.webp)
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml377_result.webp)
 
-## **Day 22: Types of Gradient Descent**
+## **Day 22: Types of Gradient Descent & Key Regression Concepts**
 
 **Date:** 2026-03-03  
 **Day:** Day 22  
-**Topic:** Variants of Gradient Descent (Batch, Stochastic, Mini-Batch)
+**Topic:** Variants of Gradient Descent, Bias-Variance, Polynomial Regression, Regularization (Lasso, Ridge, ElasticNet)
 
 ---
 
 ### **1. Overview**
 
-Today I focused on understanding the **different variants of Gradient Descent**, which are optimization techniques used to minimize a model’s cost function during training.
-
-While the core idea of Gradient Descent remains the same—**updating parameters in the direction of the negative gradient to reduce error**—the variants differ in **how much training data is used to compute each update**.
-
----
-
-### **2. Batch Gradient Descent**
-
-- Uses the **entire training dataset** to compute the gradient in each iteration.
-- Produces **stable and accurate updates** since it considers all data points.
-- However, it becomes **computationally expensive for very large datasets** because every update requires processing the full dataset.
-
-**Key idea:**  
-Reliable but slow.
+Today I focused on understanding **Gradient Descent variants** and key regression concepts.  
+Gradient Descent is used to **minimize a model’s cost function**, and the way updates are computed defines the variant (Batch, Stochastic, Mini-Batch).  
+Additionally, I reviewed **how model complexity and regularization affect performance** in regression.
 
 ---
 
-### **3. Stochastic Gradient Descent (SGD)**
+### **2. Gradient Descent Variants**
 
-- Updates model parameters using **one training example at a time**.
-- Much **faster updates** compared to batch gradient descent.
-- The updates are **noisy**, which may cause fluctuations but can help the model **escape local minima**.
+#### (A) Batch Gradient Descent
 
-**Key idea:**  
-Fast but noisy optimization.
+- Uses **entire training data** for each parameter update
+- Produces **stable and accurate updates**
+- **Slow for large datasets**  
+  **Key idea:** Reliable but slow
+
+#### (B) Stochastic Gradient Descent (SGD)
+
+- Updates using **one training example at a time**
+- **Fast updates**, introduces noise which may help escape local minima  
+  **Key idea:** Fast but noisy optimization
+
+#### (C) Mini-Batch Gradient Descent
+
+- Uses **small batches** of data per update
+- **Balanced trade-off** between speed and stability
+- Efficient for **GPU-based training**  
+  **Key idea:** Most practical approach
 
 ---
 
-### **4. Mini-Batch Gradient Descent**
+### **3. Bias-Variance Trade-Off**
 
-- Uses **small subsets (batches) of the training data** for each update.
-- Combines the advantages of **batch gradient descent and SGD**.
-- Provides **faster computation and more stable convergence**.
-- Widely used in **modern machine learning and deep learning**, especially with **GPU acceleration**.
+- **Bias:** Error due to overly simple models (underfitting)
+- **Variance:** Error due to overly complex models (overfitting)
+- Goal: Achieve **low bias and low variance** for optimal generalization
+- **Gradient Descent** and regularization techniques help control this trade-off
 
-**Key idea:**  
-Balanced and most practical approach.
+---
+
+### **4. Polynomial Regression**
+
+- Extends linear regression to **capture non-linear relationships**
+- Higher-degree polynomials **increase model flexibility**
+- Can lead to **overfitting** if not controlled
+
+---
+
+### **5. Regularization Techniques**
+
+#### (A) Ridge Regression (L2)
+
+- Adds penalty proportional to the **squared magnitude of coefficients**
+- Reduces **variance and overfitting**
+- Coefficients shrink but are **not set to zero**
+
+#### (B) Lasso Regression (L1)
+
+- Adds penalty proportional to the **absolute magnitude of coefficients**
+- Can **shrink some coefficients to zero**, performing feature selection
+- Useful for **sparse models**
+
+#### (C) ElasticNet Regression
+
+- Combines **L1 and L2 penalties**
+- Balances between **feature selection (L1)** and **coefficient shrinkage (L2)**
+- Often used when **features are correlated**
 
 ---
 
 ## **Key Takeaways**
 
-- Gradient Descent variants differ in **how much data is used per update step**.
-- Batch GD is **stable but slow**, SGD is **fast but noisy**.
-- Mini-batch GD provides the **best trade-off between efficiency and stability**.
-- Most deep learning frameworks rely on **mini-batch gradient descent for training models**.
+- Gradient Descent variants differ in **how data is used per update**
+- Batch GD → stable, SGD → fast but noisy, Mini-batch → balanced
+- Bias-variance trade-off is central to model performance
+- Polynomial regression allows **non-linear modeling** but may overfit
+- Regularization (Ridge, Lasso, ElasticNet) helps **reduce overfitting** and improve generalization
+- ElasticNet is useful when **features are highly correlated**
 
 ---
 

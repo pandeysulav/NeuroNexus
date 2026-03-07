@@ -1309,86 +1309,70 @@ MSE = \frac{1}{n}\sum (y - \hat{y})^2
 
 ---
 
-### **Day 21: Gradient Descent & Its Variants**
+### **Day 21: Gradient Descent – Intuition**
 
 **Date:** 2026-03-02  
 **Day:** Day 21  
-**Topic:** Gradient Descent (Batch, Stochastic, Mini-Batch)
+**Topic:** Gradient Descent – Core Idea & Intuition
 
 ---
 
-### **1. Intuition Behind Gradient Descent**
+### **1. What is Gradient Descent**
 
 - Learned from _Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow_
-- Goal: Minimize the cost function by iteratively updating parameters
-- Core idea:
-  - Move in the direction of the **negative gradient**
-  - Reduce error step-by-step
-- Update Rule:
-  θ = θ − η ∇J(θ)
-  - η → Learning rate
-  - ∇J(θ) → Gradient of cost function
+- Gradient Descent is an **optimization algorithm used to minimize a model’s cost function**
+- It works by **iteratively adjusting model parameters** to reduce prediction error
+- The algorithm moves in the direction where the **cost function decreases the fastest**
 
 ---
 
-### **2. Why Gradient Descent is Important**
+### **2. Core Intuition**
 
-- Used to train:
+- The key idea is to move in the direction of the **negative gradient**
+- The gradient represents the **slope of the cost function**
+- By moving opposite to the slope, the algorithm gradually approaches the **minimum error**
+
+**Update Rule:**
+
+θ = θ − η ∇J(θ)
+
+Where:
+
+- **θ** → Model parameters (weights)
+- **η** → Learning rate
+- **∇J(θ)** → Gradient of the cost function
+
+---
+
+### **3. Role of Learning Rate**
+
+The **learning rate** determines the size of each update step.
+
+- Too small → Training becomes **very slow**
+- Too large → Model may **overshoot the minimum** or diverge
+- Proper tuning helps achieve **efficient convergence**
+
+---
+
+### **4. Why Gradient Descent is Important**
+
+- Fundamental optimization method in machine learning
+- Used in training:
   - Linear Regression
   - Logistic Regression
   - Neural Networks
-- Foundation of most Deep Learning optimization algorithms
-- Enables model to learn from data efficiently
-
----
-
-### **3. Types of Gradient Descent**
-
-#### (A) Batch Gradient Descent
-
-- Uses entire training dataset
-- Stable but slow for large datasets
-- Computationally expensive
-
-#### (B) Stochastic Gradient Descent (SGD)
-
-- Uses one training example at a time
-- Faster updates
-- Noisy but can escape local minima
-- Useful for very large datasets
-
-#### (C) Mini-Batch Gradient Descent
-
-- Uses small batches of data
-- Balance between stability and speed
-- Most commonly used in practice
-- Efficient with GPU computation
-
----
-
-### **4. Learning Rate Concept**
-
-- Too small → Slow convergence
-- Too large → Overshooting / Divergence
-- Proper tuning is critical for good performance
-
----
-
-### **5. Practical Understanding**
-
-- Visualized cost reduction over iterations
-- Observed convergence behavior
-- Understood how optimization improves model accuracy
-- Connected theory with implementation using Scikit-Learn & TensorFlow
+- Forms the **foundation of most modern deep learning optimization algorithms**
 
 ---
 
 ## **Key Takeaways**
 
-- Gradient Descent is the backbone of ML optimization
-- Different variants suit different dataset sizes
-- Learning rate plays a crucial role
-- Mini-batch GD is most practical in real-world ML and Deep Learning
+- Gradient Descent is the **core optimization technique in machine learning**
+- It minimizes the cost function through **iterative parameter updates**
+- The **negative gradient direction** guides the learning process
+- Learning rate plays a **critical role in convergence speed and stability**
+
+---
 
 ---
 

@@ -1590,6 +1590,129 @@ Additionally, I reviewed **how model complexity and regularization affect perfor
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml432_result.webp)
 ![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml433_result.webp)
 
+### **Day 23: Logistic Regression & Evaluation Metrics**
+
+**Date:** 2026-03-04  
+**Day:** 23  
+**Topic:** Logistic Regression (Binary & Multiclass) + Evaluation Metrics + Hyperparameters
+
+---
+
+### **1. Logistic Regression Intuition**
+
+- Used for **classification problems** (binary/multiclass)
+- Maps input features (X) to **probabilities** of classes
+- Inspired by **Perceptron algorithm** for linear separation
+- Uses **Sigmoid function** to squash outputs between 0 and 1:
+
+\[
+\sigma(z) = \frac{1}{1 + e^{-z}}
+\]
+
+Where \( z = Xw + b \)
+
+- Output > 0.5 → Class 1, else Class 0
+
+---
+
+### **2. Loss Function**
+
+- Logistic regression uses **Binary Cross-Entropy / Log Loss**:
+
+\[
+L = - \frac{1}{n} \sum\_{i=1}^{n} \Big[ y_i \log(\hat{y}_i) + (1 - y_i)\log(1 - \hat{y}_i) \Big]
+\]
+
+- Measures **difference between predicted probability and actual label**
+- Convex → suitable for **gradient descent optimization**
+
+---
+
+### **3. Gradient Descent for Logistic Regression**
+
+- Update rule:
+
+\[
+w := w - \eta \frac{\partial L}{\partial w}, \quad b := b - \eta \frac{\partial L}{\partial b}
+\]
+
+- **η** → learning rate
+- Iteratively reduces log loss
+- Can use **Batch, Stochastic, or Mini-Batch Gradient Descent**
+
+---
+
+### **4. Logistic Regression Hyperparameters**
+
+- **Learning Rate (η):** Step size in gradient descent
+- **Number of Iterations / Epochs:** How many updates
+- **Regularization (L1 / L2 / ElasticNet):** Controls overfitting
+- **C (Inverse of Regularization Strength):** Smaller → stronger regularization
+- **Solver:** Algorithm for optimization (`lbfgs`, `saga`, etc.)
+
+---
+
+### **5. Polynomial Features in Logistic Regression**
+
+- Can extend logistic regression to **non-linear decision boundaries**
+- Transform input features \( X \) into **polynomial terms**
+- Example: \( x_1^2, x_1 x_2, x_2^2 \)
+- Works well with **regularization** to prevent overfitting
+
+---
+
+### **6. Softmax Regression (Multiclass)**
+
+- Generalization of logistic regression for **multiple classes**
+- Predicts probability for each class using **softmax function**:
+
+\[
+P(y=k|x) = \frac{e^{z_k}}{\sum_j e^{z_j}}
+\]
+
+- Outputs sum to 1 → class probabilities
+
+---
+
+### **7. Evaluation Metrics**
+
+**1. Accuracy**
+
+- Ratio of correct predictions to total predictions
+
+**2. Confusion Matrix**
+
+- Visualizes **TP, TN, FP, FN**
+
+**3. Precision**
+
+- Fraction of predicted positives that are correct  
+  \[
+  Precision = \frac{TP}{TP + FP}
+  \]
+
+**4. Recall (Sensitivity)**
+
+- Fraction of actual positives correctly identified  
+  \[
+  Recall = \frac{TP}{TP + FN}
+  \]
+
+- Can combine as **F1-score** for balance between precision & recall
+
+---
+
+## **Key Takeaways**
+
+- Logistic regression transforms **linear combination of features into probabilities**
+- Sigmoid function handles **binary classification**, softmax handles **multiclass**
+- Log loss guides gradient descent for **parameter optimization**
+- Polynomial features allow **non-linear decision boundaries**
+- Hyperparameters like **learning rate, regularization, and solver** are critical
+- Accuracy, confusion matrix, precision, recall are **key metrics for evaluation**
+
+---
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">

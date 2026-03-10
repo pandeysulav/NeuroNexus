@@ -1902,7 +1902,7 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 - Important hyperparameters include **learning rate, regularization, and solver**.
 - Model performance is evaluated using **accuracy, confusion matrix, precision, recall, and F1-score**.
 
-# Day 24: Ensemble Learning & K-Means Clustering
+### **Day 24: Ensemble Learning & K-Means Clustering**
 
 **Date:** 2026-03-05  
 **Day:** 24  
@@ -1939,11 +1939,83 @@ H(x) = Aggregate(h1(x), h2(x), ..., hM(x))
 
 ### 3.1 Bagging (Bootstrap Aggregating)
 
-- Train M models independently on **bootstrapped samples** D1, D2, ..., DM.
-- Aggregation:
-  - Regression: y_hat = (1/M) \* sum(h_i(x))
-  - Classification: y_hat = mode(h1(x), ..., hM(x))
-- Example: Random Forest
+- **Mechanism:** Train M models independently on **bootstrapped samples** D1, D2, ..., DM.
+- **Aggregation:**
+  - Regression:  
+    y_hat = (1/M) \* sum(h_i(x))
+  - Classification:  
+    y_hat = mode(h1(x), ..., hM(x))
+- **Example:** Random Forest
+
+---
+
+### 3.2 Boosting
+
+- **Mechanism:** Sequentially train learners ht where each focuses on **errors of previous models**.
+- **Prediction:**  
+  H(x) = sign(sum(alpha_t \* ht(x)))
+  - alpha_t → weight of learner based on performance
+- **Popular Algorithms:** AdaBoost, Gradient Boosting, XGBoost
+
+---
+
+### 3.3 Stacking (Stacked Generalization)
+
+- **Mechanism:** Combine base models h1, h2, ..., hM using a **meta-model** h_meta:
+
+  H(x) = h_meta(h1(x), h2(x), ..., hM(x))
+
+- **Goal:** Learn **optimal combination** of base learners to reduce bias and variance.
+
+---
+
+### 3.4 Other Methods
+
+- **Voting Classifier:** Hard voting → majority vote, Soft voting → weighted probabilities.
+- **Blending:** Similar to stacking, uses **holdout set** for meta-model.
+- Ensembles can be **homogeneous** or **heterogeneous**.
+
+---
+
+## 4. K-Means Clustering
+
+**Definition:** Partitions data {x1, x2, ..., xn} into K clusters minimizing **within-cluster sum of squares (WCSS)**:
+
+J = sum (for k=1 to K) sum (for xi in Ck) || xi - mu_k ||^2
+
+Where:
+
+- Ck = cluster k
+- mu_k = centroid of cluster k
+
+---
+
+## 5. K-Means Algorithm
+
+1. Initialize K centroids mu1, mu2, ..., muK
+2. **Assign points to nearest centroid:**  
+   ci = argmin_k || xi - mu_k ||^2
+3. **Update centroids:**  
+   mu_k = (1 / |Ck|) \* sum (for xi in Ck) xi
+4. Repeat steps 2–3 until **convergence**
+
+---
+
+## 6. Key Notes
+
+- **Distance Metric:** Usually Euclidean ||x - y||\_2
+- **Initialization:** K-Means++ improves centroid choice → faster convergence
+- **Limitations:** Sensitive to outliers, works best with **spherical clusters**, requires pre-defined K
+- **Applications:** Customer segmentation, anomaly detection, image compression
+
+---
+
+## 7. Takeaways
+
+- **Ensemble Learning** → Combines multiple models → stronger, more accurate predictions
+- **Bagging** → ↓Variance, **Boosting** → ↓Bias, **Stacking** → learn best combination
+- **K-Means** → Partition data into K clusters by minimizing within-cluster variance
+- Both are **core ML techniques** for improving performance and understanding data structure
 
 <div id="bottom"></div>
 <div align="center">

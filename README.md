@@ -1911,11 +1911,11 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ## 1. Ensemble Learning
 
-**Definition:** Combines multiple base learners \(h_1, h_2, ..., h_M\) to produce a **strong predictive model** \(H(x)\).
+**Definition:** Combines multiple base learners $h_1, h_2, ..., h_M$ to produce a **strong predictive model** $H(x)$:
 
-\[
-H(x) = \text{Aggregate}\left(h_1(x), h_2(x), ..., h_M(x)\right)
-\]
+$$
+H(x) = \text{Aggregate}(h_1(x), h_2(x), ..., h_M(x))
+$$
 
 **Purpose:**
 
@@ -1927,12 +1927,12 @@ H(x) = \text{Aggregate}\left(h_1(x), h_2(x), ..., h_M(x)\right)
 
 ## 2. Importance
 
-- **Accuracy Improvement**: Ensemble often outperforms individual models.
-- **Bias-Variance Tradeoff Handling**:
+- **Accuracy Improvement:** Ensemble often outperforms individual models.
+- **Bias-Variance Tradeoff Handling:**
   - Bagging → ↓Variance
   - Boosting → ↓Bias
-- **Stability**: Mitigates errors from weak or unstable learners.
-- **Flexibility**: Can combine heterogeneous models (trees, SVMs, neural networks).
+- **Stability:** Mitigates errors from weak or unstable learners.
+- **Flexibility:** Can combine heterogeneous models (trees, SVMs, neural networks).
 
 ---
 
@@ -1940,34 +1940,40 @@ H(x) = \text{Aggregate}\left(h_1(x), h_2(x), ..., h_M(x)\right)
 
 ### 3.1 Bagging (Bootstrap Aggregating)
 
-- **Mechanism:** Train \(M\) models independently on **bootstrapped samples** \(D_1, D_2, ..., D_M\).
+- **Mechanism:** Train $M$ models independently on **bootstrapped samples** $D_1, D_2, ..., D_M$.
 - **Aggregation:**
-  - Regression: \(\hat{y} = \frac{1}{M} \sum\_{i=1}^{M} h_i(x)\)
-  - Classification: \(\hat{y} = \text{mode}(h_1(x), ..., h_M(x))\)
-- **Example:** Random Forest (Bagging + Decision Trees)
+  - Regression:
+    $$
+    \hat{y} = \frac{1}{M} \sum_{i=1}^{M} h_i(x)
+    $$
+  - Classification:
+    $$
+    \hat{y} = \text{mode}(h_1(x), ..., h_M(x))
+    $$
+- **Example:** Random Forest
 
 ---
 
 ### 3.2 Boosting
 
-- **Mechanism:** Sequentially train learners \(h_t\) where each focuses on **errors of previous models**.
-- **Weight Update:**
-  - Misclassified samples get higher weight in the next learner.
-- **Prediction:**  
-  \[
-  H(x) = \text{sign}\left(\sum\_{t=1}^{T} \alpha_t h_t(x)\right)
-  \]
-  - \(\alpha_t\) → weight of learner based on performance
-- **Popular Algorithms:** AdaBoost, Gradient Boosting, XGBoost, LightGBM
+- **Mechanism:** Sequentially train learners $h_t$ where each focuses on **errors of previous models**.
+- **Prediction:**
+  $$
+  H(x) = \text{sign}\left(\sum_{t=1}^{T} \alpha_t h_t(x)\right)
+  $$
+  - $\alpha_t$ → weight of learner based on performance
+- **Popular Algorithms:** AdaBoost, Gradient Boosting, XGBoost
 
 ---
 
 ### 3.3 Stacking (Stacked Generalization)
 
-- **Mechanism:** Combine base models \(h*1, h_2, ..., h_M\) using a **meta-model** \(h*\text{meta}\):  
-  \[
-  H(x) = h\_\text{meta}\left(h_1(x), h_2(x), ..., h_M(x)\right)
-  \]
+- **Mechanism:** Combine base models $h_1, h_2, ..., h_M$ using a **meta-model** $h_\text{meta}$:
+
+$$
+H(x) = h_\text{meta}(h_1(x), h_2(x), ..., h_M(x))
+$$
+
 - **Goal:** Learn **optimal combination** of base learners to reduce bias and variance.
 
 ---
@@ -1976,45 +1982,45 @@ H(x) = \text{Aggregate}\left(h_1(x), h_2(x), ..., h_M(x)\right)
 
 - **Voting Classifier:** Hard voting → majority vote, Soft voting → weighted probabilities.
 - **Blending:** Similar to stacking, uses **holdout set** for meta-model.
-- Ensembles can be **homogeneous** (same algorithm) or **heterogeneous** (different algorithms).
+- Ensembles can be **homogeneous** or **heterogeneous**.
 
 ---
 
 ## 4. K-Means Clustering
 
-**Definition:** Unsupervised algorithm that partitions data \(\{x_1, x_2, ..., x_n\}\) into \(K\) clusters minimizing **within-cluster sum of squares (WCSS)**:
+**Definition:** Partitions data $\{x_1, x_2, ..., x_n\}$ into $K$ clusters minimizing **within-cluster sum of squares (WCSS)**:
 
-\[
-J = \sum*{k=1}^{K} \sum*{x_i \in C_k} \|x_i - \mu_k\|^2
-\]
+$$
+J = \sum_{k=1}^{K} \sum_{x_i \in C_k} \|x_i - \mu_k\|^2
+$$
 
 Where:
 
-- \(C_k\) = cluster \(k\)
-- \(\mu_k\) = centroid of cluster \(k\)
+- $C_k$ = cluster $k$
+- $\mu_k$ = centroid of cluster $k$
 
 ---
 
 ## 5. K-Means Algorithm
 
-1. Initialize \(K\) centroids \(\mu_1, \mu_2, ..., \mu_K\)
-2. **Assign points to nearest centroid:**  
-   \[
-   c*i = \arg\min*{k} \|x_i - \mu_k\|^2
-   \]
-3. **Update centroids:**  
-   \[
-   \mu*k = \frac{1}{|C_k|} \sum*{x_i \in C_k} x_i
-   \]
-4. Repeat 2–3 until **convergence** (centroids stabilize).
+1. Initialize $K$ centroids $\mu_1, \mu_2, ..., \mu_K$
+2. **Assign points to nearest centroid:**
+   $$
+   c_i = \arg\min_{k} \|x_i - \mu_k\|^2
+   $$
+3. **Update centroids:**
+   $$
+   \mu_k = \frac{1}{|C_k|} \sum_{x_i \in C_k} x_i
+   $$
+4. Repeat 2–3 until **convergence**
 
 ---
 
 ## 6. Key Notes
 
-- **Distance Metric:** Usually Euclidean (\(\|x - y\|\_2\))
+- **Distance Metric:** Usually Euclidean $\|x - y\|_2$
 - **Initialization:** K-Means++ improves centroid choice → faster convergence
-- **Limitations:** Sensitive to outliers, works best with **spherical clusters**, requires pre-defined \(K\)
+- **Limitations:** Sensitive to outliers, works best with **spherical clusters**, requires pre-defined $K$
 - **Applications:** Customer segmentation, anomaly detection, image compression
 
 ---
@@ -2023,8 +2029,9 @@ Where:
 
 - **Ensemble Learning** → Combines multiple models → stronger, more accurate predictions
 - **Bagging** → ↓Variance, **Boosting** → ↓Bias, **Stacking** → learn best combination
-- **K-Means** → Partition data into \(K\) clusters by minimizing within-cluster variance
+- **K-Means** → Partition data into $K$ clusters by minimizing within-cluster variance
 - Both are **core ML techniques** for improving performance and understanding data structure
+
 <div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to the top">

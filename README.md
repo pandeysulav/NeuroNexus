@@ -1809,85 +1809,85 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ## **Visual References:**
 
-![ml434](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml434_result.webp)
-![ml435](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml435_result.webp)
-![ml436](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml436_result.webp)
-![ml437](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml437_result.webp)
-![ml438](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml438_result.webp)
-![ml439](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml439_result.webp)
-![ml440](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml440_result.webp)
-![ml441](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml441_result.webp)
-![ml442](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml442_result.webp)
-![ml443](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml443_result.webp)
-![ml444](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml444_result.webp)
-![ml445](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml445_result.webp)
-![ml446](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml446_result.webp)
-![ml447](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml447_result.webp)
-![ml448](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml448_result.webp)
-![ml449](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml449_result.webp)
-![ml450](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml450_result.webp)
-![ml451](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml451_result.webp)
-![ml452](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml452_result.webp)
-![ml453](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml453_result.webp)
-![ml454](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml454_result.webp)
-![ml455](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml455_result.webp)
-![ml456](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml456_result.webp)
-![ml457](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml457_result.webp)
-![ml458](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml458_result.webp)
-![ml459](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml459_result.webp)
-![ml460](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml460_result.webp)
-![ml461](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml461_result.webp)
-![ml462](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml462_result.webp)
-![ml463](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml463_result.webp)
-![ml464](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml464_result.webp)
-![ml465](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml465_result.webp)
-![ml466](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml466_result.webp)
-![ml467](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml467_result.webp)
-![ml468](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml468_result.webp)
-![ml469](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml469_result.webp)
-![ml470](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml470_result.webp)
-![ml471](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml471_result.webp)
-![ml472](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml472_result.webp)
-![ml473](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml473_result.webp)
-![ml474](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml474_result.webp)
-![ml475](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml475_result.webp)
-![ml476](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml476_result.webp)
-![ml477](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml477_result.webp)
-![ml478](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml478_result.webp)
-![ml479](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml479_result.webp)
-![ml480](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml480_result.webp)
-![ml481](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml481_result.webp)
-![ml482](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml482_result.webp)
-![ml483](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml483_result.webp)
-![ml484](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml484_result.webp)
-![ml485](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml485_result.webp)
-![ml486](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml486_result.webp)
-![ml487](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml487_result.webp)
-![ml488](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml488_result.webp)
-![ml489](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml489_result.webp)
-![ml490](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml490_result.webp)
-![ml491](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml491_result.webp)
-![ml492](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml492_result.webp)
-![ml493](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml493_result.webp)
-![ml494](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml494_result.webp)
-![ml495](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml495_result.webp)
-![ml496](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml496_result.webp)
-![ml497](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml497_result.webp)
-![ml498](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml498_result.webp)
-![ml499](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml499_result.webp)
-![ml500](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml500_result.webp)
-![ml501](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml501_result.webp)
-![ml502](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml502_result.webp)
-![ml503](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml503_result.webp)
-![ml504](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml504_result.webp)
-![ml505](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml505_result.webp)
-![ml506](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml506_result.webp)
-![ml507](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml507_result.webp)
-![ml508](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml508_result.webp)
-![ml509](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml509_result.webp)
-![ml510](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml510_result.webp)
-![ml511](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml511_result.webp)
-![ml512](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml512_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml434_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml435_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml436_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml437_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml438_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml439_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml440_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml441_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml442_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml443_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml444_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml445_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml446_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml447_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml448_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml449_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml450_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml451_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml452_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml453_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml454_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml455_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml456_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml457_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml458_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml459_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml460_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml461_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml462_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml463_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml464_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml465_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml466_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml467_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml468_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml469_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml470_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml471_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml472_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml473_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml474_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml475_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml476_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml477_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml478_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml479_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml480_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml481_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml482_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml483_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml484_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml485_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml486_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml487_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml488_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml489_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml490_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml491_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml492_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml493_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml494_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml495_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml496_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml497_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml498_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml499_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml500_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml501_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml502_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml503_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml504_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml505_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml506_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml507_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml508_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml509_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml510_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml511_result.webp)
+![](https://raw.githubusercontent.com/pandeysulav/NeuroNexus/main/DAILY%20LEARNING%20LOGS/ASSETS/IMAGES/ml512_result.webp)
 
 ---
 
@@ -1901,7 +1901,7 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 - Important hyperparameters include **learning rate, regularization, and solver**.
 - Model performance is evaluated using **accuracy, confusion matrix, precision, recall, and F1-score**.
 
-### **Day 24: Ensemble Learning & K-Means Clustering**
+# Day 24: Ensemble Learning & K-Means Clustering
 
 **Date:** 2026-03-05  
 **Day:** 24  
@@ -1911,11 +1911,9 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ## 1. Ensemble Learning
 
-**Definition:** Combines multiple base learners $h_1, h_2, ..., h_M$ to produce a **strong predictive model** $H(x)$:
+**Definition:** Combines multiple base learners h1, h2, ..., hM to produce a **strong predictive model** H(x):
 
-$$
-H(x) = \text{Aggregate}(h_1(x), h_2(x), ..., h_M(x))
-$$
+H(x) = Aggregate(h1(x), h2(x), ..., hM(x))
 
 **Purpose:**
 
@@ -1932,7 +1930,7 @@ $$
   - Bagging → ↓Variance
   - Boosting → ↓Bias
 - **Stability:** Mitigates errors from weak or unstable learners.
-- **Flexibility:** Can combine heterogeneous models (trees, SVMs, neural networks).
+- **Flexibility:** Can combine heterogeneous models (trees, SVMs, neural networks)
 
 ---
 
@@ -1940,97 +1938,11 @@ $$
 
 ### 3.1 Bagging (Bootstrap Aggregating)
 
-- **Mechanism:** Train $M$ models independently on **bootstrapped samples** $D_1, D_2, ..., D_M$.
-- **Aggregation:**
-  - Regression:
-    $$
-    \hat{y} = \frac{1}{M} \sum_{i=1}^{M} h_i(x)
-    $$
-  - Classification:
-    $$
-    \hat{y} = \text{mode}(h_1(x), ..., h_M(x))
-    $$
-- **Example:** Random Forest
-
----
-
-### 3.2 Boosting
-
-- **Mechanism:** Sequentially train learners $h_t$ where each focuses on **errors of previous models**.
-- **Prediction:**
-  $$
-  H(x) = \text{sign}\left(\sum_{t=1}^{T} \alpha_t h_t(x)\right)
-  $$
-  - $\alpha_t$ → weight of learner based on performance
-- **Popular Algorithms:** AdaBoost, Gradient Boosting, XGBoost
-
----
-
-### 3.3 Stacking (Stacked Generalization)
-
-- **Mechanism:** Combine base models $h_1, h_2, ..., h_M$ using a **meta-model** $h_\text{meta}$:
-
-$$
-H(x) = h_\text{meta}(h_1(x), h_2(x), ..., h_M(x))
-$$
-
-- **Goal:** Learn **optimal combination** of base learners to reduce bias and variance.
-
----
-
-### 3.4 Other Methods
-
-- **Voting Classifier:** Hard voting → majority vote, Soft voting → weighted probabilities.
-- **Blending:** Similar to stacking, uses **holdout set** for meta-model.
-- Ensembles can be **homogeneous** or **heterogeneous**.
-
----
-
-## 4. K-Means Clustering
-
-**Definition:** Partitions data $\{x_1, x_2, ..., x_n\}$ into $K$ clusters minimizing **within-cluster sum of squares (WCSS)**:
-
-$$
-J = \sum_{k=1}^{K} \sum_{x_i \in C_k} \|x_i - \mu_k\|^2
-$$
-
-Where:
-
-- $C_k$ = cluster $k$
-- $\mu_k$ = centroid of cluster $k$
-
----
-
-## 5. K-Means Algorithm
-
-1. Initialize $K$ centroids $\mu_1, \mu_2, ..., \mu_K$
-2. **Assign points to nearest centroid:**
-   $$
-   c_i = \arg\min_{k} \|x_i - \mu_k\|^2
-   $$
-3. **Update centroids:**
-   $$
-   \mu_k = \frac{1}{|C_k|} \sum_{x_i \in C_k} x_i
-   $$
-4. Repeat 2–3 until **convergence**
-
----
-
-## 6. Key Notes
-
-- **Distance Metric:** Usually Euclidean $\|x - y\|_2$
-- **Initialization:** K-Means++ improves centroid choice → faster convergence
-- **Limitations:** Sensitive to outliers, works best with **spherical clusters**, requires pre-defined $K$
-- **Applications:** Customer segmentation, anomaly detection, image compression
-
----
-
-## 7. Takeaways
-
-- **Ensemble Learning** → Combines multiple models → stronger, more accurate predictions
-- **Bagging** → ↓Variance, **Boosting** → ↓Bias, **Stacking** → learn best combination
-- **K-Means** → Partition data into $K$ clusters by minimizing within-cluster variance
-- Both are **core ML techniques** for improving performance and understanding data structure
+- Train M models independently on **bootstrapped samples** D1, D2, ..., DM.
+- Aggregation:
+  - Regression: y_hat = (1/M) \* sum(h_i(x))
+  - Classification: y_hat = mode(h1(x), ..., hM(x))
+- Example: Random Forest
 
 <div id="bottom"></div>
 <div align="center">

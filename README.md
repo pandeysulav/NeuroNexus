@@ -1598,120 +1598,226 @@ Additionally, I reviewed **how model complexity and regularization affect perfor
 
 ---
 
-### **1. Logistic Regression Intuition**
+## 1. Logistic Regression Intuition
 
-- Used for **classification problems** (binary/multiclass)
-- Maps input features (X) to **probabilities** of classes
-- Inspired by **Perceptron algorithm** for linear separation
-- Uses **Sigmoid function** to squash outputs between 0 and 1:
+- Used for **classification problems** (binary or multiclass)
+- Maps input features **X** to **probabilities of classes**
+- Inspired by the **Perceptron algorithm** for linear separation
+- Uses the **Sigmoid function** to squash outputs between 0 and 1
 
-\[
-\sigma(z) = \frac{1}{1 + e^{-z}}
-\]
+Sigmoid function:
 
-Where \( z = Xw + b \)
+```
+σ(z) = 1 / (1 + e^(-z))
+```
 
-- Output > 0.5 → Class 1, else Class 0
+Where:
 
----
+```
+z = Xw + b
+```
 
-### **2. Loss Function**
+Decision rule:
 
-- Logistic regression uses **Binary Cross-Entropy / Log Loss**:
-
-\[
-L = - \frac{1}{n} \sum\_{i=1}^{n} \Big[ y_i \log(\hat{y}_i) + (1 - y_i)\log(1 - \hat{y}_i) \Big]
-\]
-
-- Measures **difference between predicted probability and actual label**
-- Convex → suitable for **gradient descent optimization**
+```
+If probability > 0.5 → Class 1
+Else → Class 0
+```
 
 ---
 
-### **3. Gradient Descent for Logistic Regression**
+## 2. Loss Function
 
-- Update rule:
+Logistic Regression uses **Binary Cross-Entropy (Log Loss)**.
 
-\[
-w := w - \eta \frac{\partial L}{\partial w}, \quad b := b - \eta \frac{\partial L}{\partial b}
-\]
+```
+L = -(1/n) Σ [ y_i log(y_hat_i) + (1 - y_i) log(1 - y_hat_i) ]
+```
 
-- **η** → learning rate
-- Iteratively reduces log loss
-- Can use **Batch, Stochastic, or Mini-Batch Gradient Descent**
+Where:
 
----
+```
+y_i      → actual label
+y_hat_i  → predicted probability
+n        → number of samples
+```
 
-### **4. Logistic Regression Hyperparameters**
+This loss function measures the **difference between predicted probability and the actual label**.
 
-- **Learning Rate (η):** Step size in gradient descent
-- **Number of Iterations / Epochs:** How many updates
-- **Regularization (L1 / L2 / ElasticNet):** Controls overfitting
-- **C (Inverse of Regularization Strength):** Smaller → stronger regularization
-- **Solver:** Algorithm for optimization (`lbfgs`, `saga`, etc.)
+The function is **convex**, which makes it suitable for **gradient descent optimization**.
 
 ---
 
-### **5. Polynomial Features in Logistic Regression**
+## 3. Gradient Descent for Logistic Regression
 
-- Can extend logistic regression to **non-linear decision boundaries**
-- Transform input features \( X \) into **polynomial terms**
-- Example: \( x_1^2, x_1 x_2, x_2^2 \)
-- Works well with **regularization** to prevent overfitting
+Update rule for parameters:
 
----
+```
+w = w - η * (∂L / ∂w)
+b = b - η * (∂L / ∂b)
+```
 
-### **6. Softmax Regression (Multiclass)**
+Where:
 
-- Generalization of logistic regression for **multiple classes**
-- Predicts probability for each class using **softmax function**:
+```
+η → learning rate
+```
 
-\[
-P(y=k|x) = \frac{e^{z_k}}{\sum_j e^{z_j}}
-\]
+Gradient descent **iteratively updates parameters** to minimize the log loss.
 
-- Outputs sum to 1 → class probabilities
+Types of Gradient Descent used:
 
----
-
-### **7. Evaluation Metrics**
-
-**1. Accuracy**
-
-- Ratio of correct predictions to total predictions
-
-**2. Confusion Matrix**
-
-- Visualizes **TP, TN, FP, FN**
-
-**3. Precision**
-
-- Fraction of predicted positives that are correct  
-  \[
-  Precision = \frac{TP}{TP + FP}
-  \]
-
-**4. Recall (Sensitivity)**
-
-- Fraction of actual positives correctly identified  
-  \[
-  Recall = \frac{TP}{TP + FN}
-  \]
-
-- Can combine as **F1-score** for balance between precision & recall
+- **Batch Gradient Descent**
+- **Stochastic Gradient Descent (SGD)**
+- **Mini-Batch Gradient Descent**
 
 ---
 
-## **Key Takeaways**
+## 4. Logistic Regression Hyperparameters
 
-- Logistic regression transforms **linear combination of features into probabilities**
-- Sigmoid function handles **binary classification**, softmax handles **multiclass**
-- Log loss guides gradient descent for **parameter optimization**
-- Polynomial features allow **non-linear decision boundaries**
-- Hyperparameters like **learning rate, regularization, and solver** are critical
-- Accuracy, confusion matrix, precision, recall are **key metrics for evaluation**
+Important hyperparameters include:
+
+- **Learning Rate (η)**  
+  Controls the step size during gradient descent updates.
+
+- **Number of Iterations / Epochs**  
+  Determines how many times the algorithm updates parameters.
+
+- **Regularization (L1 / L2 / ElasticNet)**  
+  Helps reduce **overfitting** by penalizing large weights.
+
+- **C (Inverse Regularization Strength)**
+
+```
+Smaller C → stronger regularization
+Larger C  → weaker regularization
+```
+
+- **Solver**
+
+Optimization algorithms used to minimize loss:
+
+```
+lbfgs
+liblinear
+saga
+newton-cg
+```
 
 ---
+
+## 5. Polynomial Features in Logistic Regression
+
+Logistic Regression can also model **non-linear decision boundaries**.
+
+This is done by transforming input features into **polynomial terms**.
+
+Example feature expansion:
+
+```
+x1
+x2
+x1^2
+x1*x2
+x2^2
+```
+
+This allows the model to learn **curved decision boundaries**.
+
+Regularization is usually applied to **prevent overfitting** when using polynomial features.
+
+---
+
+## 6. Softmax Regression (Multiclass Logistic Regression)
+
+Softmax regression extends logistic regression to **multiple classes**.
+
+Softmax function:
+
+```
+P(y = k | x) = e^(z_k) / Σ e^(z_j)
+```
+
+Where:
+
+```
+z_k → score for class k
+```
+
+The softmax output produces **probabilities for each class**, and:
+
+```
+Sum of probabilities = 1
+```
+
+The class with the **highest probability is chosen as the prediction**.
+
+---
+
+## 7. Evaluation Metrics
+
+### Accuracy
+
+```
+Accuracy = Correct Predictions / Total Predictions
+```
+
+Measures the **overall correctness of the model**.
+
+---
+
+### Confusion Matrix
+
+Used to visualize classification performance.
+
+```
+TP → True Positive
+TN → True Negative
+FP → False Positive
+FN → False Negative
+```
+
+---
+
+### Precision
+
+Fraction of predicted positives that are actually correct.
+
+```
+Precision = TP / (TP + FP)
+```
+
+---
+
+### Recall (Sensitivity)
+
+Fraction of actual positives that are correctly identified.
+
+```
+Recall = TP / (TP + FN)
+```
+
+---
+
+### F1 Score
+
+Balances precision and recall.
+
+```
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
+```
+
+---
+
+## Key Takeaways
+
+- Logistic Regression converts a **linear combination of features into probabilities**.
+- The **Sigmoid function** is used for binary classification.
+- **Softmax function** is used for multiclass classification.
+- **Log Loss** guides the optimization using gradient descent.
+- **Polynomial features** help create non-linear decision boundaries.
+- Important hyperparameters include **learning rate, regularization, and solver**.
+- Model performance is evaluated using **accuracy, confusion matrix, precision, recall, and F1-score**.
 
 <div id="bottom"></div>
 <div align="center">

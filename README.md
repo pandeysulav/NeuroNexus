@@ -1912,9 +1912,9 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ## 1. Ensemble Learning
 
-**Definition:** Combines multiple base learners h1, h2, ..., hM to produce a **strong predictive model** H(x):
+**Definition:** Combines multiple base learners h₁, h₂, ..., hₘ to produce a **strong predictive model** H(x):
 
-H(x) = Aggregate(h1(x), h2(x), ..., hM(x))
+H(x) = Aggregate(h₁(x), h₂(x), ..., hₘ(x))
 
 **Purpose:**
 
@@ -1939,71 +1939,71 @@ H(x) = Aggregate(h1(x), h2(x), ..., hM(x))
 
 ### 3.1 Bagging (Bootstrap Aggregating)
 
-- **Mechanism:** Train M models independently on **bootstrapped samples** D1, D2, ..., DM.
+- **Mechanism:** Train M models independently on bootstrapped samples D₁, D₂, ..., Dₘ.
 - **Aggregation:**
   - Regression:  
-    y_hat = (1/M) \* sum(h_i(x))
+    ŷ = (1/M) × Σ hᵢ(x)
   - Classification:  
-    y_hat = mode(h1(x), ..., hM(x))
+    ŷ = mode(h₁(x), ..., hₘ(x))
 - **Example:** Random Forest
 
 ---
 
 ### 3.2 Boosting
 
-- **Mechanism:** Sequentially train learners ht where each focuses on **errors of previous models**.
+- **Mechanism:** Sequentially train learners hₜ where each focuses on **errors of previous models**.
 - **Prediction:**  
-  H(x) = sign(sum(alpha_t \* ht(x)))
-  - alpha_t → weight of learner based on performance
+  H(x) = sign(Σ αₜ × hₜ(x))
+  - αₜ → weight of learner based on performance
 - **Popular Algorithms:** AdaBoost, Gradient Boosting, XGBoost
 
 ---
 
 ### 3.3 Stacking (Stacked Generalization)
 
-- **Mechanism:** Combine base models h1, h2, ..., hM using a **meta-model** h_meta:
+- **Mechanism:** Combine base models h₁, h₂, ..., hₘ using a **meta-model** h_meta:
 
-  H(x) = h_meta(h1(x), h2(x), ..., hM(x))
+  H(x) = h_meta(h₁(x), h₂(x), ..., hₘ(x))
 
-- **Goal:** Learn **optimal combination** of base learners to reduce bias and variance.
+- **Goal:** Learn **optimal combination** of base learners to reduce bias and variance
 
 ---
 
 ### 3.4 Other Methods
 
-- **Voting Classifier:** Hard voting → majority vote, Soft voting → weighted probabilities.
-- **Blending:** Similar to stacking, uses **holdout set** for meta-model.
-- Ensembles can be **homogeneous** or **heterogeneous**.
+- **Voting Classifier:** Hard voting → majority vote, Soft voting → weighted probabilities
+- **Blending:** Similar to stacking, uses a holdout set for meta-model
+- Ensembles can be **homogeneous** or **heterogeneous**
 
 ---
 
 ## 4. K-Means Clustering
 
-**Definition:** Partitions data {x1, x2, ..., xn} into K clusters minimizing **within-cluster sum of squares (WCSS)**:
+**Definition:** Partitions data {x₁, x₂, ..., xₙ} into K clusters minimizing **within-cluster sum of squares (WCSS):**
 
-J = sum (for k=1 to K) sum (for xi in Ck) || xi - mu_k ||^2
+J = Σ (k=1 to K) Σ (xᵢ ∈ Cₖ) || xᵢ − μₖ ||²
 
 Where:
 
-- Ck = cluster k
-- mu_k = centroid of cluster k
+- Cₖ = cluster k
+- μₖ = centroid of cluster k
 
 ---
 
 ## 5. K-Means Algorithm
 
-1. Initialize K centroids mu1, mu2, ..., muK
+1. Initialize K centroids μ₁, μ₂, ..., μₖ
 2. **Assign points to nearest centroid:**  
-   ci = argmin_k || xi - mu_k ||^2
+   cᵢ = argminₖ || xᵢ − μₖ ||²
 3. **Update centroids:**  
-   mu_k = (1 / |Ck|) \* sum (for xi in Ck) xi
+   μₖ = (1 / |Cₖ|) × Σ (xᵢ ∈ Cₖ) xᵢ
 4. Repeat steps 2–3 until **convergence**
 
 ---
 
 ## 6. Key Notes
 
-- **Distance Metric:** Usually Euclidean ||x - y||\_2
+- **Distance Metric:** Usually Euclidean ||x − y||₂
 - **Initialization:** K-Means++ improves centroid choice → faster convergence
 - **Limitations:** Sensitive to outliers, works best with **spherical clusters**, requires pre-defined K
 - **Applications:** Customer segmentation, anomaly detection, image compression

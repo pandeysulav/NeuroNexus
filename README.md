@@ -67,6 +67,7 @@
 | [Day 21](#day-21-gradient-descent--intuition)                                  | 2026-02-14 | Gradient Descent – Intuition                                                                               | [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) |
 | [Day 22](#day-22-types-of-gradient-descent--key-regression-concepts)           | 2026-03-03 | Gradient Descent Variants, Bias-Variance, Polynomial Regression, Regularization (Lasso, Ridge, ElasticNet) | [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) |
 | [Day 23](#day-23-logistic-regression--evaluation-metrics)                      | 2026-03-04 | Logistic Regression (Binary & Multiclass), Evaluation Metrics, Hyperparameters                             | [CampusX – 100 Days of ML](https://youtu.be/FgakZw6K1QQ)                                                                                         |
+| [Day 24](#day-24-ensemble-learning--k-means-clustering)                        | 2026-03-06 | Ensemble Learning, Bagging, Boosting, Stacking, K-Means Clustering, Algorithm, Key Notes, Takeaways        | [CampusX – 100 Days of ML](https://youtu.be/)                                                                                                    |
 
 ---
 
@@ -1904,7 +1905,7 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ### **Day 24: Ensemble Learning & K-Means Clustering**
 
-**Date:** 2026-03-05  
+**Date:** 2026-03-06  
 **Day:** 24  
 **Topic:** Ensemble Learning + K-Means Clustering
 
